@@ -1,0 +1,940 @@
+Construindo o grafo e carregando o modelo... Isso pode levar alguns minutos.
+Modelo e grafo carregados com sucesso!
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 850.49 MB
+    -> RAM Total Sistema: 11.6% (6.55 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 12.01% (1.44 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 867.68 MB
+    -> RAM Total Sistema: 11.7% (6.59 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 12.04% (1.44 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.27s/it]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.78s/it]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.91s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.65s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.68s/it]
+Device set to use cuda:0
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3030.19 MB (Variação: +2162.51 MB)
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3030.19 MB (Variação: +2179.70 MB)
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3030.19 MB
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3361.29 MB (Variação: +331.09 MB)
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3361.29 MB
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3361.44 MB
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3361.44 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.1% (8.68 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 62.23% (7.46 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 5846.75 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3867.38 MB (Variação: +506.09 MB)
+    -> RAM Total Sistema: 15.9% (9.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.63% (9.55 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7219.55 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3867.54 MB
+    -> RAM Total Sistema: 15.9% (9.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.63% (9.55 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7219.55 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.54 MB
+    -> RAM Total Sistema: 15.9% (9.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.63% (9.55 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7219.55 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.54 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.63% (9.55 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7219.55 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'generate_answer_node' ---
+    -> RAM do Processo: 3867.85 MB (Variação: +0.31 MB)
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.11% (9.37 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'review_answer_node' ---
+    -> RAM do Processo: 3867.85 MB
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.11% (9.37 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.85 MB
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.11% (9.37 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.85 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.11% (9.37 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'review_answer_node' ---
+    -> RAM do Processo: 3867.85 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 3867.85 MB
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.85 MB
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3867.85 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3867.85 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3867.85 MB
+    -> RAM Total Sistema: 15.9% (9.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3898.32 MB (Variação: +30.47 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3898.47 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.47 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.47 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.30% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.31 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.93% (9.71 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.93% (9.71 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.93% (9.71 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.93% (9.71 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'generate_answer_node' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.03% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'review_answer_node' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.03% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.03% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.03% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'review_answer_node' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3898.79 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3898.79 MB
+    -> RAM Total Sistema: 15.9% (9.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +13.91 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.22% (9.50 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3912.69 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3912.69 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3914.72 MB (Variação: +2.03 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.36% (9.64 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 83.29% (9.99 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 83.29% (9.99 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 83.29% (9.99 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 83.29% (9.99 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'generate_answer_node' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.01% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'review_answer_node' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.01% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.01% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 78.01% (9.36 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'review_answer_node' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.33% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3914.88 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3914.88 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3915.04 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3915.04 MB
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3915.04 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.26% (9.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3916.29 MB (Variação: +1.25 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.18% (9.62 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3916.29 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.18% (9.62 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.29 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.18% (9.62 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.29 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.18% (9.62 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'generate_answer_node' ---
+    -> RAM do Processo: 3916.75 MB (Variação: +0.47 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 77.85% (9.34 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'review_answer_node' ---
+    -> RAM do Processo: 3916.75 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 77.85% (9.34 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.75 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 77.85% (9.34 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.75 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 77.85% (9.34 GB / 11.99 GB)This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (8192). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'review_answer_node' ---
+    -> RAM do Processo: 3916.75 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 3916.75 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.75 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3916.75 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3916.75 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3916.75 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3919.57 MB (Variação: +2.81 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3919.57 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3919.57 MB
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3919.57 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 79.04% (9.48 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3919.57 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3919.57 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3919.57 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3919.72 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3919.72 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3919.72 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3919.72 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3919.72 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3920.19 MB (Variação: +0.47 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3920.50 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.50 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.50 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.67% (9.68 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 7892.70 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.31 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 95.97% (11.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8090.72 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 95.97% (11.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8090.72 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 95.97% (11.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8090.72 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 95.97% (11.51 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8090.72 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'generate_answer_node' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.88% (9.70 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'review_answer_node' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.88% (9.70 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.88% (9.70 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.9% (9.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 80.88% (9.70 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'review_answer_node' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+Processando pergunta para a thread: b725c847-8ca2-4a24-a5b3-a6ad5331268c
+
+--- [MONITOR] Iniciando 'create_model_node' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'create_model_node' ---
+    -> RAM do Processo: 3920.82 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3920.82 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_node' ---
+    -> RAM do Processo: 3923.79 MB (Variação: +2.97 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3923.94 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3923.94 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3923.94 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 82.54% (9.90 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3923.94 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3923.94 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'retrieve_docs_similarity_threshold_node' ---
+    -> RAM do Processo: 3923.94 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3924.25 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.25 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.25 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3924.25 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3924.25 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'retrieve_docs_mmr_node' ---
+    -> RAM do Processo: 3924.41 MB (Variação: +0.16 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'grading_node' ---
+    -> RAM do Processo: 3924.57 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.57 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.57 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 86.04% (10.32 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+--- [MONITOR] Finalizado 'grading_node' ---
+    -> RAM do Processo: 3924.57 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 89.46% (10.73 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'generate_answer_node' ---
+    -> RAM do Processo: 3924.57 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 89.46% (10.73 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+
+--- [MONITOR] Iniciando 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.72 MB
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 89.46% (10.73 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+--- [MONITOR] Finalizado 'get_model_from_cache_gemma' ---
+    -> RAM do Processo: 3924.72 MB (Variação: +0.00 MB)
+    -> RAM Total Sistema: 15.8% (9.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 89.46% (10.73 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 8221.81 MB
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/felipekenji/IC/IA/RAG/Epagri.ia-main/back/testes/teste_3.py", line 47, in <module>
+    resp = search(i,thread_id, 1)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/IC/IA/RAG/Epagri.ia-main/back/testes/model_for_tests.py", line 132, in search
+    final_state = RAG_APP.invoke(initial_input, config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/IC/IA/RAG/Epagri.ia-main/back/testes/GraphState_testes.py", line 52, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/IC/IA/RAG/Epagri.ia-main/back/testes/GraphState_testes.py", line 326, in generate_answer_node
+    resp = chain.invoke({
+           ^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 3049, in invoke
+    input_ = context.run(step.invoke, input_, config)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+             ^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_huggingface/chat_models/huggingface.py", line 586, in _generate
+    llm_result = self.llm._generate(
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/langchain_huggingface/llms/huggingface_pipeline.py", line 323, in _generate
+    responses = self.pipeline(
+                ^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/text_generation.py", line 321, in __call__
+    return super().__call__(text_inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1439, in __call__
+    outputs = list(final_iterator)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/pt_utils.py", line 125, in __next__
+    processed = self.infer(item, **self.params)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1365, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/pipelines/text_generation.py", line 419, in _forward
+    output = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/generation/utils.py", line 2488, in generate
+    self._prepare_cache_for_generation(
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/generation/utils.py", line 2063, in _prepare_cache_for_generation
+    model_kwargs[cache_name] = self._get_cache(
+                               ^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/generation/utils.py", line 1959, in _get_cache
+    self._cache = cache_cls(**cache_kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/cache_utils.py", line 1570, in __init__
+    super().__init__(config=config, layer_classes=layer_classes, *args, **kwargs)
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/cache_utils.py", line 1110, in __init__
+    self.append_new_layers(self.num_hidden_layers - 1)
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/cache_utils.py", line 1172, in append_new_layers
+    new_layer = new_layer_class(**kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felipekenji/.local/lib/python3.11/site-packages/transformers/cache_utils.py", line 226, in __init__
+    self.keys = torch.zeros(
+                ^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 44.00 MiB. GPU 0 has a total capacity of 11.65 GiB of which 40.62 MiB is free. Including non-PyTorch memory, this process has 10.51 GiB memory in use. Of the allocated memory 10.33 GiB is allocated by PyTorch, and 55.43 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+During task with name 'generate_answer' and id '5810d49c-90ef-43c1-bfcc-2f5a21b5ce09'

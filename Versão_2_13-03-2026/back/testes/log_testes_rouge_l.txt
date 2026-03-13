@@ -1,0 +1,3920 @@
+nohup: ignorando entrada
+----------------------INICIANDO AVALIAÇÃO ROUGE-L ------------------------------
+--- Execução Número: 1 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2120
+  Precisão Média: 0.1541
+  F1-Score Médio: 0.1695
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 1! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.1695 (da Execução 1)
+  Recall Associado: 0.2120
+  Precisão Associada: 0.1541
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2612
+  Precisão Média: 0.1651
+  F1-Score Médio: 0.1921
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 1! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.1921 (da Execução 1)
+  Recall Associado: 0.2612
+  Precisão Associada: 0.1651
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2524
+  Precisão Média: 0.1858
+  F1-Score Médio: 0.2038
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 1! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2038 (da Execução 1)
+  Recall Associado: 0.2524
+  Precisão Associada: 0.1858
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2911
+  Precisão Média: 0.1898
+  F1-Score Médio: 0.2147
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 1! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1443
+  Precisão Média: 0.1340
+  F1-Score Médio: 0.1155
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1966
+  Precisão Média: 0.1107
+  F1-Score Médio: 0.1359
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2068
+  Precisão Média: 0.1416
+  F1-Score Médio: 0.1535
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2608
+  Precisão Média: 0.1375
+  F1-Score Médio: 0.1714
+------------------------------
+Resultados da execução 1 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 29 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 2 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1906
+  Precisão Média: 0.1392
+  F1-Score Médio: 0.1509
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2647
+  Precisão Média: 0.1685
+  F1-Score Médio: 0.1940
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2596
+  Precisão Média: 0.1778
+  F1-Score Médio: 0.2002
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2147 (da Execução 1)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2147 (da Execução 1)
+  Recall Associado: 0.2911
+  Precisão Associada: 0.1898
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3188
+  Precisão Média: 0.2450
+  F1-Score Médio: 0.2624
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 2! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1454
+  Precisão Média: 0.1417
+  F1-Score Médio: 0.1170
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2110
+  Precisão Média: 0.1007
+  F1-Score Médio: 0.1290
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1846
+  Precisão Média: 0.1275
+  F1-Score Médio: 0.1394
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2445
+  Precisão Média: 0.1455
+  F1-Score Médio: 0.1726
+------------------------------
+Resultados da execução 2 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 28 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 3 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2466
+  Precisão Média: 0.1184
+  F1-Score Médio: 0.1523
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3007
+  Precisão Média: 0.1133
+  F1-Score Médio: 0.1581
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3067
+  Precisão Média: 0.1482
+  F1-Score Médio: 0.1914
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.4397
+  Precisão Média: 0.1952
+  F1-Score Médio: 0.2592
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2142
+  Precisão Média: 0.0951
+  F1-Score Médio: 0.1212
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2382
+  Precisão Média: 0.1500
+  F1-Score Médio: 0.1747
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2005
+  Precisão Média: 0.1418
+  F1-Score Médio: 0.1473
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1976
+  Precisão Média: 0.1271
+  F1-Score Médio: 0.1445
+------------------------------
+Resultados da execução 3 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 27 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 4 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2118
+  Precisão Média: 0.1457
+  F1-Score Médio: 0.1587
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2280
+  Precisão Média: 0.1321
+  F1-Score Médio: 0.1584
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2470
+  Precisão Média: 0.1750
+  F1-Score Médio: 0.1967
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3021
+  Precisão Média: 0.2064
+  F1-Score Médio: 0.2340
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2212
+  Precisão Média: 0.1569
+  F1-Score Médio: 0.1523
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2074
+  Precisão Média: 0.1141
+  F1-Score Médio: 0.1417
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1913
+  Precisão Média: 0.1459
+  F1-Score Médio: 0.1485
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2435
+  Precisão Média: 0.1502
+  F1-Score Médio: 0.1728
+------------------------------
+Resultados da execução 4 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 26 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 5 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2020
+  Precisão Média: 0.1548
+  F1-Score Médio: 0.1635
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2385
+  Precisão Média: 0.1600
+  F1-Score Médio: 0.1781
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2382
+  Precisão Média: 0.1810
+  F1-Score Médio: 0.2001
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2624 (da Execução 2)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2624 (da Execução 2)
+  Recall Associado: 0.3188
+  Precisão Associada: 0.2450
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3535
+  Precisão Média: 0.2676
+  F1-Score Médio: 0.2905
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 5! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1993
+  Precisão Média: 0.1641
+  F1-Score Médio: 0.1485
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2018
+  Precisão Média: 0.1234
+  F1-Score Médio: 0.1428
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2319
+  Precisão Média: 0.1495
+  F1-Score Médio: 0.1625
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2015
+  Precisão Média: 0.1099
+  F1-Score Médio: 0.1333
+------------------------------
+Resultados da execução 5 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 25 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 6 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1871
+  Precisão Média: 0.1445
+  F1-Score Médio: 0.1476
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2740
+  Precisão Média: 0.1735
+  F1-Score Médio: 0.2004
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2357
+  Precisão Média: 0.1641
+  F1-Score Médio: 0.1830
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2994
+  Precisão Média: 0.2328
+  F1-Score Médio: 0.2505
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1576
+  Precisão Média: 0.1259
+  F1-Score Médio: 0.1134
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1943
+  Precisão Média: 0.1122
+  F1-Score Médio: 0.1342
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1985
+  Precisão Média: 0.1366
+  F1-Score Médio: 0.1495
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1897
+  Precisão Média: 0.1084
+  F1-Score Médio: 0.1273
+------------------------------
+Resultados da execução 6 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 24 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 7 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2106
+  Precisão Média: 0.1507
+  F1-Score Médio: 0.1672
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2560
+  Precisão Média: 0.1465
+  F1-Score Médio: 0.1770
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2476
+  Precisão Média: 0.1935
+  F1-Score Médio: 0.2110
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3353
+  Precisão Média: 0.2052
+  F1-Score Médio: 0.2399
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1599
+  Precisão Média: 0.1283
+  F1-Score Médio: 0.1246
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1879
+  Precisão Média: 0.1153
+  F1-Score Médio: 0.1322
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2312
+  Precisão Média: 0.1527
+  F1-Score Médio: 0.1549
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2083
+  Precisão Média: 0.1328
+  F1-Score Médio: 0.1504
+------------------------------
+Resultados da execução 7 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 23 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 8 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2010
+  Precisão Média: 0.1516
+  F1-Score Médio: 0.1614
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2846
+  Precisão Média: 0.1597
+  F1-Score Médio: 0.1930
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2376
+  Precisão Média: 0.1828
+  F1-Score Médio: 0.2026
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2872
+  Precisão Média: 0.2062
+  F1-Score Médio: 0.2286
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1984
+  Precisão Média: 0.1391
+  F1-Score Médio: 0.1391
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2155
+  Precisão Média: 0.1177
+  F1-Score Médio: 0.1416
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2046
+  Precisão Média: 0.1614
+  F1-Score Médio: 0.1616
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2390
+  Precisão Média: 0.1387
+  F1-Score Médio: 0.1660
+------------------------------
+Resultados da execução 8 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 22 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 9 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2137
+  Precisão Média: 0.1470
+  F1-Score Médio: 0.1611
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2527
+  Precisão Média: 0.1671
+  F1-Score Médio: 0.1925
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2442
+  Precisão Média: 0.1824
+  F1-Score Médio: 0.2013
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3537
+  Precisão Média: 0.2287
+  F1-Score Médio: 0.2627
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1365
+  Precisão Média: 0.1311
+  F1-Score Médio: 0.1066
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2124
+  Precisão Média: 0.1288
+  F1-Score Médio: 0.1468
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1908
+  Precisão Média: 0.1524
+  F1-Score Médio: 0.1445
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2530
+  Precisão Média: 0.1429
+  F1-Score Médio: 0.1770
+------------------------------
+Resultados da execução 9 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 21 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 10 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1910
+  Precisão Média: 0.1350
+  F1-Score Médio: 0.1477
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3294
+  Precisão Média: 0.1774
+  F1-Score Médio: 0.2180
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2554
+  Precisão Média: 0.1846
+  F1-Score Médio: 0.2083
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3009
+  Precisão Média: 0.2047
+  F1-Score Médio: 0.2296
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1470
+  Precisão Média: 0.1383
+  F1-Score Médio: 0.1236
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1642
+  Precisão Média: 0.1235
+  F1-Score Médio: 0.1295
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1973
+  Precisão Média: 0.1351
+  F1-Score Médio: 0.1457
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2126
+  Precisão Média: 0.1052
+  F1-Score Médio: 0.1288
+------------------------------
+Resultados da execução 10 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 20 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 11 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1964
+  Precisão Média: 0.1577
+  F1-Score Médio: 0.1634
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2181
+  Precisão Média: 0.1456
+  F1-Score Médio: 0.1663
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2564
+  Precisão Média: 0.1814
+  F1-Score Médio: 0.2041
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2905 (da Execução 5)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2905 (da Execução 5)
+  Recall Associado: 0.3535
+  Precisão Associada: 0.2676
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3430
+  Precisão Média: 0.2767
+  F1-Score Médio: 0.2934
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 11! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1892
+  Precisão Média: 0.1586
+  F1-Score Médio: 0.1512
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1958
+  Precisão Média: 0.1231
+  F1-Score Médio: 0.1341
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1831
+  Precisão Média: 0.1513
+  F1-Score Médio: 0.1392
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2343
+  Precisão Média: 0.1184
+  F1-Score Médio: 0.1457
+------------------------------
+Resultados da execução 11 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 19 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 12 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1957
+  Precisão Média: 0.1548
+  F1-Score Médio: 0.1626
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2263
+  Precisão Média: 0.1507
+  F1-Score Médio: 0.1692
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2639
+  Precisão Média: 0.1834
+  F1-Score Médio: 0.2062
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3141
+  Precisão Média: 0.2319
+  F1-Score Médio: 0.2551
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1642
+  Precisão Média: 0.1323
+  F1-Score Médio: 0.1273
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1868
+  Precisão Média: 0.1117
+  F1-Score Médio: 0.1296
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2121
+  Precisão Média: 0.1303
+  F1-Score Médio: 0.1525
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1928
+  Precisão Média: 0.1116
+  F1-Score Médio: 0.1290
+------------------------------
+Resultados da execução 12 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 18 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 13 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2037
+  Precisão Média: 0.1461
+  F1-Score Médio: 0.1589
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2635
+  Precisão Média: 0.1690
+  F1-Score Médio: 0.1880
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2616
+  Precisão Média: 0.1822
+  F1-Score Médio: 0.2044
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3225
+  Precisão Média: 0.2363
+  F1-Score Médio: 0.2592
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2226
+  Precisão Média: 0.1461
+  F1-Score Médio: 0.1604
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2173
+  Precisão Média: 0.1292
+  F1-Score Médio: 0.1539
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2234
+  Precisão Média: 0.1474
+  F1-Score Médio: 0.1583
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2029
+  Precisão Média: 0.1340
+  F1-Score Médio: 0.1503
+------------------------------
+Resultados da execução 13 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 17 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 14 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2113
+  Precisão Média: 0.1577
+  F1-Score Médio: 0.1653
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2413
+  Precisão Média: 0.1707
+  F1-Score Médio: 0.1871
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2772
+  Precisão Média: 0.2044
+  F1-Score Médio: 0.2253
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3387
+  Precisão Média: 0.2476
+  F1-Score Médio: 0.2711
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1202
+  Precisão Média: 0.1137
+  F1-Score Médio: 0.0959
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2179
+  Precisão Média: 0.1297
+  F1-Score Médio: 0.1507
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2184
+  Precisão Média: 0.1434
+  F1-Score Médio: 0.1531
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2144
+  Precisão Média: 0.1190
+  F1-Score Médio: 0.1372
+------------------------------
+Resultados da execução 14 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 16 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 15 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1878
+  Precisão Média: 0.1390
+  F1-Score Médio: 0.1482
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2616
+  Precisão Média: 0.1730
+  F1-Score Médio: 0.1985
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2584
+  Precisão Média: 0.1848
+  F1-Score Médio: 0.2032
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3253
+  Precisão Média: 0.2564
+  F1-Score Médio: 0.2738
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1869
+  Precisão Média: 0.1518
+  F1-Score Médio: 0.1414
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1981
+  Precisão Média: 0.1297
+  F1-Score Médio: 0.1397
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2042
+  Precisão Média: 0.1485
+  F1-Score Médio: 0.1579
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2742
+  Precisão Média: 0.1279
+  F1-Score Médio: 0.1625
+------------------------------
+Resultados da execução 15 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 15 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 16 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1934
+  Precisão Média: 0.1359
+  F1-Score Médio: 0.1498
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2357
+  Precisão Média: 0.1491
+  F1-Score Médio: 0.1701
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2602
+  Precisão Média: 0.1894
+  F1-Score Médio: 0.2119
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3040
+  Precisão Média: 0.2145
+  F1-Score Médio: 0.2413
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1453
+  Precisão Média: 0.1211
+  F1-Score Médio: 0.1162
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2049
+  Precisão Média: 0.1221
+  F1-Score Médio: 0.1422
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2139
+  Precisão Média: 0.1467
+  F1-Score Médio: 0.1563
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2365
+  Precisão Média: 0.1394
+  F1-Score Médio: 0.1671
+------------------------------
+Resultados da execução 16 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 14 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 17 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2054
+  Precisão Média: 0.1466
+  F1-Score Médio: 0.1612
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2581
+  Precisão Média: 0.1554
+  F1-Score Médio: 0.1852
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2628
+  Precisão Média: 0.1844
+  F1-Score Médio: 0.2053
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3782
+  Precisão Média: 0.2383
+  F1-Score Médio: 0.2816
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1305
+  Precisão Média: 0.1228
+  F1-Score Médio: 0.1093
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2044
+  Precisão Média: 0.1320
+  F1-Score Médio: 0.1498
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2032
+  Precisão Média: 0.1388
+  F1-Score Médio: 0.1458
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2259
+  Precisão Média: 0.1254
+  F1-Score Médio: 0.1430
+------------------------------
+Resultados da execução 17 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 13 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 18 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2035
+  Precisão Média: 0.1558
+  F1-Score Médio: 0.1654
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2862
+  Precisão Média: 0.1792
+  F1-Score Médio: 0.2133
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2435
+  Precisão Média: 0.1926
+  F1-Score Médio: 0.2092
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3352
+  Precisão Média: 0.2327
+  F1-Score Médio: 0.2618
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1626
+  Precisão Média: 0.1313
+  F1-Score Médio: 0.1329
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1926
+  Precisão Média: 0.1098
+  F1-Score Médio: 0.1272
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2016
+  Precisão Média: 0.1496
+  F1-Score Médio: 0.1573
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2206
+  Precisão Média: 0.1272
+  F1-Score Médio: 0.1489
+------------------------------
+Resultados da execução 18 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 12 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 19 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2190
+  Precisão Média: 0.1588
+  F1-Score Médio: 0.1695
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2399
+  Precisão Média: 0.1599
+  F1-Score Médio: 0.1775
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2579
+  Precisão Média: 0.1848
+  F1-Score Médio: 0.2084
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3387
+  Precisão Média: 0.2508
+  F1-Score Médio: 0.2742
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1199
+  Precisão Média: 0.1111
+  F1-Score Médio: 0.1017
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1895
+  Precisão Média: 0.1061
+  F1-Score Médio: 0.1276
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2242
+  Precisão Média: 0.1617
+  F1-Score Médio: 0.1649
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2191
+  Precisão Média: 0.1506
+  F1-Score Médio: 0.1659
+------------------------------
+Resultados da execução 19 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 11 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 20 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1977
+  Precisão Média: 0.1541
+  F1-Score Médio: 0.1617
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2228
+  Precisão Média: 0.1491
+  F1-Score Médio: 0.1604
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2409
+  Precisão Média: 0.1784
+  F1-Score Médio: 0.1973
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2760
+  Precisão Média: 0.2011
+  F1-Score Médio: 0.2214
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1416
+  Precisão Média: 0.1107
+  F1-Score Médio: 0.1090
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2376
+  Precisão Média: 0.1239
+  F1-Score Médio: 0.1510
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1790
+  Precisão Média: 0.1441
+  F1-Score Médio: 0.1455
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2253
+  Precisão Média: 0.1459
+  F1-Score Médio: 0.1613
+------------------------------
+Resultados da execução 20 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 10 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 21 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2257
+  Precisão Média: 0.1583
+  F1-Score Médio: 0.1745
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2700
+  Precisão Média: 0.1553
+  F1-Score Médio: 0.1874
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2439
+  Precisão Média: 0.1848
+  F1-Score Médio: 0.2051
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3439
+  Precisão Média: 0.2664
+  F1-Score Médio: 0.2873
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1916
+  Precisão Média: 0.1520
+  F1-Score Médio: 0.1383
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2316
+  Precisão Média: 0.1359
+  F1-Score Médio: 0.1605
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2042
+  Precisão Média: 0.1427
+  F1-Score Médio: 0.1539
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2500
+  Precisão Média: 0.1372
+  F1-Score Médio: 0.1699
+------------------------------
+Resultados da execução 21 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 9 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 22 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1944
+  Precisão Média: 0.1442
+  F1-Score Médio: 0.1566
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2422
+  Precisão Média: 0.1485
+  F1-Score Médio: 0.1767
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2483
+  Precisão Média: 0.1691
+  F1-Score Médio: 0.1941
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.2934 (da Execução 11)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.2934 (da Execução 11)
+  Recall Associado: 0.3430
+  Precisão Associada: 0.2767
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.4069
+  Precisão Média: 0.3137
+  F1-Score Médio: 0.3395
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+>>> NOVO MELHOR RESULTADO INDIVIDUAL ENCONTRADO na Execução 22! Salvo em 'best_rouge_l_results.json'. <<<
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1967
+  Precisão Média: 0.1468
+  F1-Score Médio: 0.1471
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2387
+  Precisão Média: 0.1296
+  F1-Score Médio: 0.1542
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1949
+  Precisão Média: 0.1390
+  F1-Score Médio: 0.1443
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2422
+  Precisão Média: 0.1279
+  F1-Score Médio: 0.1608
+------------------------------
+Resultados da execução 22 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 8 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 23 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2129
+  Precisão Média: 0.1391
+  F1-Score Médio: 0.1564
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2121
+  Precisão Média: 0.1243
+  F1-Score Médio: 0.1470
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2553
+  Precisão Média: 0.1923
+  F1-Score Médio: 0.2113
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3496
+  Precisão Média: 0.2450
+  F1-Score Médio: 0.2703
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2163
+  Precisão Média: 0.1416
+  F1-Score Médio: 0.1473
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2067
+  Precisão Média: 0.1341
+  F1-Score Médio: 0.1466
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1922
+  Precisão Média: 0.1506
+  F1-Score Médio: 0.1469
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2190
+  Precisão Média: 0.1138
+  F1-Score Médio: 0.1439
+------------------------------
+Resultados da execução 23 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 7 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 24 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1770
+  Precisão Média: 0.1331
+  F1-Score Médio: 0.1403
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2420
+  Precisão Média: 0.1630
+  F1-Score Médio: 0.1822
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2567
+  Precisão Média: 0.1775
+  F1-Score Médio: 0.1980
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3075
+  Precisão Média: 0.2078
+  F1-Score Médio: 0.2348
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1614
+  Precisão Média: 0.1151
+  F1-Score Médio: 0.1165
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2026
+  Precisão Média: 0.1118
+  F1-Score Médio: 0.1350
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1998
+  Precisão Média: 0.1333
+  F1-Score Médio: 0.1448
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2212
+  Precisão Média: 0.1404
+  F1-Score Médio: 0.1602
+------------------------------
+Resultados da execução 24 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 6 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 25 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2032
+  Precisão Média: 0.1430
+  F1-Score Médio: 0.1573
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2616
+  Precisão Média: 0.1790
+  F1-Score Médio: 0.1964
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2584
+  Precisão Média: 0.1740
+  F1-Score Médio: 0.1959
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3060
+  Precisão Média: 0.2195
+  F1-Score Médio: 0.2455
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1404
+  Precisão Média: 0.1285
+  F1-Score Médio: 0.1142
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2141
+  Precisão Média: 0.1262
+  F1-Score Médio: 0.1517
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1976
+  Precisão Média: 0.1600
+  F1-Score Médio: 0.1561
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2556
+  Precisão Média: 0.1324
+  F1-Score Médio: 0.1646
+------------------------------
+Resultados da execução 25 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 5 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 26 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2046
+  Precisão Média: 0.1454
+  F1-Score Médio: 0.1575
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2574
+  Precisão Média: 0.1757
+  F1-Score Médio: 0.2017
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2513
+  Precisão Média: 0.1708
+  F1-Score Médio: 0.1950
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3246
+  Precisão Média: 0.2505
+  F1-Score Médio: 0.2666
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1806
+  Precisão Média: 0.1179
+  F1-Score Médio: 0.1309
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2385
+  Precisão Média: 0.1407
+  F1-Score Médio: 0.1707
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1846
+  Precisão Média: 0.1498
+  F1-Score Médio: 0.1461
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2556
+  Precisão Média: 0.1339
+  F1-Score Médio: 0.1664
+------------------------------
+Resultados da execução 26 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 4 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 27 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1855
+  Precisão Média: 0.1293
+  F1-Score Médio: 0.1438
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2133
+  Precisão Média: 0.1385
+  F1-Score Médio: 0.1545
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2404
+  Precisão Média: 0.1772
+  F1-Score Médio: 0.1968
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3003
+  Precisão Média: 0.2154
+  F1-Score Médio: 0.2384
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1649
+  Precisão Média: 0.1419
+  F1-Score Médio: 0.1307
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2170
+  Precisão Média: 0.1117
+  F1-Score Médio: 0.1398
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1901
+  Precisão Média: 0.1550
+  F1-Score Médio: 0.1526
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1901
+  Precisão Média: 0.1229
+  F1-Score Médio: 0.1337
+------------------------------
+Resultados da execução 27 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 3 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 28 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1827
+  Precisão Média: 0.1325
+  F1-Score Médio: 0.1432
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2825
+  Precisão Média: 0.1683
+  F1-Score Médio: 0.2018
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2544
+  Precisão Média: 0.1827
+  F1-Score Médio: 0.2051
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3007
+  Precisão Média: 0.2423
+  F1-Score Médio: 0.2534
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1572
+  Precisão Média: 0.1375
+  F1-Score Médio: 0.1245
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2299
+  Precisão Média: 0.1270
+  F1-Score Médio: 0.1553
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1932
+  Precisão Média: 0.1479
+  F1-Score Médio: 0.1408
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2418
+  Precisão Média: 0.1343
+  F1-Score Médio: 0.1627
+------------------------------
+Resultados da execução 28 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 2 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 29 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1947
+  Precisão Média: 0.1476
+  F1-Score Médio: 0.1581
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3018
+  Precisão Média: 0.1879
+  F1-Score Médio: 0.2151
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2531
+  Precisão Média: 0.1716
+  F1-Score Médio: 0.1987
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3417
+  Precisão Média: 0.2475
+  F1-Score Médio: 0.2738
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2246
+  Precisão Média: 0.1496
+  F1-Score Médio: 0.1600
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2022
+  Precisão Média: 0.1284
+  F1-Score Médio: 0.1455
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2105
+  Precisão Média: 0.1297
+  F1-Score Médio: 0.1500
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2071
+  Precisão Média: 0.1186
+  F1-Score Médio: 0.1430
+------------------------------
+Resultados da execução 29 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+Faltam 1 execuções para calcular a média final das 30 rodadas.
+--- Execução Número: 30 de 30 ---
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1939
+  Precisão Média: 0.1457
+  F1-Score Médio: 0.1543
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.7944
+  Precisão Média Global: 1.2135
+  F1-Score Médio Global: 1.3393
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2225
+  Precisão Média: 0.1362
+  F1-Score Médio: 0.1594
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8018
+  Precisão Média Global: 1.2181
+  F1-Score Médio Global: 1.3447
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2602
+  Precisão Média: 0.1878
+  F1-Score Médio: 0.2111
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8105
+  Precisão Média Global: 1.2243
+  F1-Score Médio Global: 1.3517
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.3252
+  Precisão Média: 0.2191
+  F1-Score Médio: 0.2469
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8213
+  Precisão Média Global: 1.2316
+  F1-Score Médio Global: 1.3599
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1854
+  Precisão Média: 0.1483
+  F1-Score Médio: 0.1492
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8275
+  Precisão Média Global: 1.2366
+  F1-Score Médio Global: 1.3649
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.1946
+  Precisão Média: 0.1262
+  F1-Score Médio: 0.1375
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8340
+  Precisão Média Global: 1.2408
+  F1-Score Médio Global: 1.3695
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2131
+  Precisão Média: 0.1492
+  F1-Score Médio: 0.1623
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8411
+  Precisão Média Global: 1.2458
+  F1-Score Médio Global: 1.3749
+
+--- Resultados da Execução Atual ---
+ROUGE-L:
+  Recall Médio: 0.2098
+  Precisão Média: 0.1222
+  F1-Score Médio: 0.1454
+------------------------------
+Resultados da execução 30 adicionados ao histórico.
+
+Não foi o melhor resultado individual. O melhor ROUGE-L F1 continua sendo 0.3395 (da Execução 22)
+
+--- Melhor Resultado ROUGE-L até agora ---
+Melhor F1-Score (ROUGE-L): 0.3395 (da Execução 22)
+  Recall Associado: 0.4069
+  Precisão Associada: 0.3137
+
+--- FIM DAS 30 EXECUÇÕES. CALCULANDO MÉDIAS FINAIS ---
+
+Médias das 30 execuções (ROUGE-L) salvas em 'rouge_l_average_results.json':
+  Recall Médio Global: 1.8481
+  Precisão Média Global: 1.2498
+  F1-Score Médio Global: 1.3797

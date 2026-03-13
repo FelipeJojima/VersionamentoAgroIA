@@ -1,0 +1,6 @@
+{
+    "num_executions": 30,
+    "average_rouge_1_recall": 1.9932445559004899,
+    "average_rouge_1_precision": 1.352490988580748,
+    "average_rouge_1_f1": 1.4882631487126483
+}
