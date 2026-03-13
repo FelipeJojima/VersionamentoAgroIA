@@ -1,0 +1,786 @@
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.71 MB
+    -> RAM Total Sistema: 19.7% (12.22 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.68 MB
+    -> RAM Total Sistema: 19.7% (12.23 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.4648 segundos
+    -> RAM do Processo: 1384.31 MB (Variação: +477.63 MB)
+    -> RAM Total Sistema: 20.5% (12.72 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.7258 segundos
+    -> RAM do Processo: 1384.46 MB (Variação: +495.75 MB)
+    -> RAM Total Sistema: 20.5% (12.72 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1384.46 MB
+    -> RAM Total Sistema: 20.5% (12.72 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999958334
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 286.2096 segundos
+    -> RAM do Processo: 3147.65 MB (Variação: +1763.18 MB)
+    -> RAM Total Sistema: 21.2% (13.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nOs principais cultivares da banana recomendados para o estado de Santa Catarina são:\n\n1. Nanicão\n2. BRS Platina\n3. Prata Anã\n\nEsses cultivares são recomendados devido à sua resistência a doenças como a Sigatoka amarela e ao mal do panamá, além de sua produtividade e capacidade de se adaptar às condições climáticas da região.\n', 'sources': '', 'history': '\n0 Pergunta\nCite os principais cultivares da banana recomendados para o estado de Santa Catarina.\n\n1 Pergunta\nOs principais cultivares da banana recomendados para o estado de Santa Catarina são:\n\n1. Nanicão\n2. BRS Platina\n3. Prata Anã\n\nEsses cultivares são recomendados devido à sua resistência a doenças como a Sigatoka amarela e ao mal do panamá, além de sua produtividade e capacidade de se adaptar às condições climáticas da região.\n', 'search_method': 'similarity_threshold', 'question': 'Cite os principais cultivares da banana recomendados para o estado de Santa Catarina.'}
+Ground-Truth:
+
+Branca, BRS Fhia Maravilha, BRS Fhia Maravilha, BRS Platina, BRS Princesa, BRS SCS Belluna, BRS Thap Maeo, BRS Tropical, Figo cinza, Grande Naine, Nanicão, Ouro, Prata Anã, SCS451 Catarina, SCS452 Nanicão Corupá, SCS453 Noninha, SCS454 Carvoeira, Terra e Williams.
+Roberta: Precision = 
+tensor([0.8386])
+Recall = 
+tensor([0.8363])
+F1 = 
+tensor([0.8374])
+
+
+
+
+Timbau: Precision = 
+tensor([0.4030])
+Recall = 
+tensor([0.5537])
+F1 = 
+tensor([0.4665])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.69 MB
+    -> RAM Total Sistema: 19.5% (12.10 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.50 MB
+    -> RAM Total Sistema: 19.5% (12.11 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.4160 segundos
+    -> RAM do Processo: 1370.44 MB (Variação: +463.94 MB)
+    -> RAM Total Sistema: 20.2% (12.56 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.6058 segundos
+    -> RAM do Processo: 1370.59 MB (Variação: +481.91 MB)
+    -> RAM Total Sistema: 20.2% (12.56 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1370.59 MB
+    -> RAM Total Sistema: 20.2% (12.56 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9843164310328676
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 326.0068 segundos
+    -> RAM do Processo: 3137.41 MB (Variação: +1766.82 MB)
+    -> RAM Total Sistema: 21.2% (13.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA cultivar SCS452 Nanicão Corupá é uma cultivar de arroz irrigado desenvolvida pela Empresa de Pesquisa Agropecuária e Livrocesta (EPAL) em Santa Catarina, Brasil. Ela é conhecida por suas características agronômicas e industriais. Aqui estão algumas das principais características da cultivar SCS452 Nanicão Corupá:\n\n**Características Agronômicas:**\n\n* Produtividade: 10,0t/ha\n* Altura da planta: 105cm\n* Ciclo: Tardio (140 dias)\n* Acamamento: Resistente\n* Reação à toxidez por ferro: Moderadamente suscetível\n* Reação à brusone: Moderadamente resistente\n* Reação a baixas temperaturas (13°C): Suscetível\n\n**Características Industriais:**\n\n* Gesso: 1\n* Classe: Longo fino\n* Renda do beneficiamento: 72,0%\n* Rendimento de grãos inteiros: 63,3%\n* Teor de amilose: 24 a 26%\n* Temperatura de gelatinização: Média\n\n**Folhas:**\n\n* Cor: Verde\n* Comprimento: 39cm\n* Largura: 1,6cm\n* Pubescência: Forte\n* Ângulo das folhas: Intermediário\n* Ângulo da folha bandeira: Ereto (menor que 30°)\n* Cor da bainha: Verde\n* Cor da lígula: Branca a verde\n* Cor da aurícula: Incolor a verde\n* Cor do colo: Verde-clara\n\n**Colmo:**\n\n* Comprimento: 74cm\n* Espessura: 0,6cm\n* Perfilhamento: Médio\n* Ângulo dos perfilhos: Ereto (menor que 30°)\n* Cor do internó: Verde\n\n**Panículas:**\n\n* Tipo: Normal\n* Comprimento: Intermediário (27,4cm)\n* Exserção: Média (1 a 5cm)\n* Degrane: Intermediário\n* Axis: Caído\n\n**Espigueta:**\n\n* Arista: Ausente\n* Cor estigma: Branca\n* Cor do apículo na floração: Verde\n* Cor do apículo na maturação: Palha\n* Cor da pálea e lema: Palha\n* Cor das glumelas: Palha\n\n**Grãos:**\n\n* Comprimento: 7,2mm\n* Espessura: 1,7mm\n* Largura: 1,9mm\n* Relação C/L: 3,79\n* Forma do grão: Muito alongado\n* Peso de mil grãos: 27,9g\n* Pilosidade: Média\n\nEssas são as principais características da cultivar SCS452 Nanicão Corupá. Ela é conhecida por sua produtividade, resistência a acamamento e boa qualidade de grãos.\n', 'sources': '', 'history': '\n0 Pergunta\nQuais as principais características da cultivar SCS452 Nanicão Corupá?\n\n1 Pergunta\nA cultivar SCS452 Nanicão Corupá é uma cultivar de arroz irrigado desenvolvida pela Empresa de Pesquisa Agropecuária e Livrocesta (EPAL) em Santa Catarina, Brasil. Ela é conhecida por suas características agronômicas e industriais. Aqui estão algumas das principais características da cultivar SCS452 Nanicão Corupá:\n\n**Características Agronômicas:**\n\n* Produtividade: 10,0t/ha\n* Altura da planta: 105cm\n* Ciclo: Tardio (140 dias)\n* Acamamento: Resistente\n* Reação à toxidez por ferro: Moderadamente suscetível\n* Reação à brusone: Moderadamente resistente\n* Reação a baixas temperaturas (13°C): Suscetível\n\n**Características Industriais:**\n\n* Gesso: 1\n* Classe: Longo fino\n* Renda do beneficiamento: 72,0%\n* Rendimento de grãos inteiros: 63,3%\n* Teor de amilose: 24 a 26%\n* Temperatura de gelatinização: Média\n\n**Folhas:**\n\n* Cor: Verde\n* Comprimento: 39cm\n* Largura: 1,6cm\n* Pubescência: Forte\n* Ângulo das folhas: Intermediário\n* Ângulo da folha bandeira: Ereto (menor que 30°)\n* Cor da bainha: Verde\n* Cor da lígula: Branca a verde\n* Cor da aurícula: Incolor a verde\n* Cor do colo: Verde-clara\n\n**Colmo:**\n\n* Comprimento: 74cm\n* Espessura: 0,6cm\n* Perfilhamento: Médio\n* Ângulo dos perfilhos: Ereto (menor que 30°)\n* Cor do internó: Verde\n\n**Panículas:**\n\n* Tipo: Normal\n* Comprimento: Intermediário (27,4cm)\n* Exserção: Média (1 a 5cm)\n* Degrane: Intermediário\n* Axis: Caído\n\n**Espigueta:**\n\n* Arista: Ausente\n* Cor estigma: Branca\n* Cor do apículo na floração: Verde\n* Cor do apículo na maturação: Palha\n* Cor da pálea e lema: Palha\n* Cor das glumelas: Palha\n\n**Grãos:**\n\n* Comprimento: 7,2mm\n* Espessura: 1,7mm\n* Largura: 1,9mm\n* Relação C/L: 3,79\n* Forma do grão: Muito alongado\n* Peso de mil grãos: 27,9g\n* Pilosidade: Média\n\nEssas são as principais características da cultivar SCS452 Nanicão Corupá. Ela é conhecida por sua produtividade, resistência a acamamento e boa qualidade de grãos.\n', 'search_method': 'similarity_threshold', 'question': 'Quais as principais características da cultivar SCS452 Nanicão Corupá?'}
+Ground-Truth:
+
+('Grupo genômico AAA, subgrupo Cavendish. Resultado de mutação natural originário do município de Corupá/SC. Tem porte baixo, boa produtividade e é altamente suscetível à sigatoka amarela e altamente resistente ao mal do panamá. As recomendações de espaçamento são de 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare.',)
+Roberta: Precision = 
+tensor([0.7787])
+Recall = 
+tensor([0.8503])
+F1 = 
+tensor([0.8129])
+
+
+
+
+Timbau: Precision = 
+tensor([0.4165])
+Recall = 
+tensor([0.5648])
+F1 = 
+tensor([0.4795])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 889.37 MB
+    -> RAM Total Sistema: 19.6% (12.13 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 907.18 MB
+    -> RAM Total Sistema: 19.6% (12.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.1018 segundos
+    -> RAM do Processo: 1334.42 MB (Variação: +427.24 MB)
+    -> RAM Total Sistema: 20.3% (12.62 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.2921 segundos
+    -> RAM do Processo: 1334.57 MB (Variação: +445.21 MB)
+    -> RAM Total Sistema: 20.3% (12.62 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1334.57 MB
+    -> RAM Total Sistema: 20.3% (12.62 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9481877249666665
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 295.7207 segundos
+    -> RAM do Processo: 3066.82 MB (Variação: +1732.25 MB)
+    -> RAM Total Sistema: 21.2% (13.13 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA resposta à pergunta do usuário está disponível no documento "Zoneamento agroclimático e ecofisiologia da bananeira" da Epagri, que menciona que os cultivares Prata são mais recomendados para a região do Litoral Sul Catarinense, onde são plantados em encostas de morros, evitando-se o risco de geadas em áreas de várzeas e de fundo de vales. Já os cultivares Cavendish predominam e são mais recomendados para o Litoral Norte Catarinense, onde também são cultivados em encostas de morros, mas podem ser plantados em áreas de baixadas.\n\nPortanto, as áreas colhidas para os subgrupos Cavendish e Prata ocorrem nas regiões do Litoral Norte e Litoral Sul Catarinense, respectivamente.\n', 'sources': '', 'history': '\n0 Pergunta\nEm relação ao MAPEAMENTO DAS ÁREAS PRODUTORAS DE BANANA EM SANTA CATARINA, quais as áreas colhidas para os subgrupos Cavendish e Prata e em quais municípios ocorrem as concentrações dessas colheitas?\n\n1 Pergunta\nA resposta à pergunta do usuário está disponível no documento "Zoneamento agroclimático e ecofisiologia da bananeira" da Epagri, que menciona que os cultivares Prata são mais recomendados para a região do Litoral Sul Catarinense, onde são plantados em encostas de morros, evitando-se o risco de geadas em áreas de várzeas e de fundo de vales. Já os cultivares Cavendish predominam e são mais recomendados para o Litoral Norte Catarinense, onde também são cultivados em encostas de morros, mas podem ser plantados em áreas de baixadas.\n\nPortanto, as áreas colhidas para os subgrupos Cavendish e Prata ocorrem nas regiões do Litoral Norte e Litoral Sul Catarinense, respectivamente.\n', 'search_method': 'similarity_threshold', 'question': 'Em relação ao MAPEAMENTO DAS ÁREAS PRODUTORAS DE BANANA EM SANTA CATARINA, quais as áreas colhidas para os subgrupos Cavendish e Prata e em quais municípios ocorrem as concentrações dessas colheitas?'}
+Ground-Truth:
+
+('A área colhida de bananeiras do subgrupo Cavendish, distribuída pelo Estado com um total de 20.800ha, está concentração na região norte, em municípios como Corupá, com 4.830ha; Luiz Alves, com 3.900ha; e Massaranduba, com 1.957ha. Já o subgrupo Prata totaliza 7.500ha, havendo uma concentração dos principais municípios produtores no sul do Estado, com Jacinto Machado, representando 2.500ha, seguido de Santa Rosa do Sul, com 820ha, e Criciúma, com 560ha.',)
+Roberta: Precision = 
+tensor([0.8484])
+Recall = 
+tensor([0.8372])
+F1 = 
+tensor([0.8428])
+
+
+
+
+Timbau: Precision = 
+tensor([0.5204])
+Recall = 
+tensor([0.5263])
+F1 = 
+tensor([0.5234])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Exception raised in Job[1]: TimeoutError()
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.49 MB
+    -> RAM Total Sistema: 19.7% (12.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.15 MB
+    -> RAM Total Sistema: 19.6% (12.19 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.0825 segundos
+    -> RAM do Processo: 1379.87 MB (Variação: +473.72 MB)
+    -> RAM Total Sistema: 20.4% (12.65 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.4216 segundos
+    -> RAM do Processo: 1380.02 MB (Variação: +491.53 MB)
+    -> RAM Total Sistema: 20.5% (12.71 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1380.02 MB
+    -> RAM Total Sistema: 20.5% (12.71 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999944446
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 450.4864 segundos
+    -> RAM do Processo: 3170.49 MB (Variação: +1790.47 MB)
+    -> RAM Total Sistema: 21.2% (13.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA coleta e amostragem de solo para o cultivo de banana em Santa Catarina devem seguir as diretrizes específicas para cada tipo de área, implantada ou em produção. Para áreas a serem implantadas, é recomendado coletar amostras de solo em diferentes pontos da área, considerando a variedade de condições do solo, como textura, profundidade, etc. Para áreas em produção, é importante coletar amostras em pontos específicos, como ao redor das plantas, para avaliar a fertilidade do solo e a necessidade de correção.\n\nPara a coleta de amostras, é importante seguir as seguintes etapas:\n\n1.  Identificar os pontos de coleta, considerando a variedade de condições do solo.\n2.  Coletar amostras de solo em cada ponto, considerando a profundidade de 0-20cm.\n3.  Armazenar as amostras em sacos plásticos, fechados e etiquetados.\n4.  Realizar a análise química das amostras, considerando os principais nutrientes para o cultivo de banana, como N, P, K, Ca, Mg, S, entre outros.\n\nPara a análise química, é recomendado utilizar os métodos de análise química mais precisos e confiáveis, como a análise por espectrometria de absorção atômica (AAS) e a análise por espectrometria de massa (MS).\n\nAlém disso, é importante considerar os seguintes pontos:\n\n*   A coleta de amostras deve ser realizada cerca de 4 meses antes da semeadura da lavoura, para permitir a aplicação de corretivos de baixo custo, caso seja necessária.\n*   A análise química das amostras deve ser realizada por laboratórios especializados e com equipamentos de última geração.\n*   A interpretação dos resultados da análise química deve ser realizada por profissionais especializados em solo e fertilidade.\n\nÉ importante lembrar que a coleta e amostragem de solo são etapas fundamentais para o cultivo de banana em Santa Catarina, pois permitem a avaliação da fertilidade do solo e a necessidade de correção, o que pode influenciar diretamente a produtividade e a qualidade das bananas.\n', 'sources': '', 'history': '\n0 Pergunta\nComo deve-se proceder a coleta e amostragem de solo para uma área a ser implantada e uma em produção para o cultivo de banana em Santa Catarina?\n\n1 Pergunta\nA coleta e amostragem de solo para o cultivo de banana em Santa Catarina devem seguir as diretrizes específicas para cada tipo de área, implantada ou em produção. Para áreas a serem implantadas, é recomendado coletar amostras de solo em diferentes pontos da área, considerando a variedade de condições do solo, como textura, profundidade, etc. Para áreas em produção, é importante coletar amostras em pontos específicos, como ao redor das plantas, para avaliar a fertilidade do solo e a necessidade de correção.\n\nPara a coleta de amostras, é importante seguir as seguintes etapas:\n\n1.  Identificar os pontos de coleta, considerando a variedade de condições do solo.\n2.  Coletar amostras de solo em cada ponto, considerando a profundidade de 0-20cm.\n3.  Armazenar as amostras em sacos plásticos, fechados e etiquetados.\n4.  Realizar a análise química das amostras, considerando os principais nutrientes para o cultivo de banana, como N, P, K, Ca, Mg, S, entre outros.\n\nPara a análise química, é recomendado utilizar os métodos de análise química mais precisos e confiáveis, como a análise por espectrometria de absorção atômica (AAS) e a análise por espectrometria de massa (MS).\n\nAlém disso, é importante considerar os seguintes pontos:\n\n*   A coleta de amostras deve ser realizada cerca de 4 meses antes da semeadura da lavoura, para permitir a aplicação de corretivos de baixo custo, caso seja necessária.\n*   A análise química das amostras deve ser realizada por laboratórios especializados e com equipamentos de última geração.\n*   A interpretação dos resultados da análise química deve ser realizada por profissionais especializados em solo e fertilidade.\n\nÉ importante lembrar que a coleta e amostragem de solo são etapas fundamentais para o cultivo de banana em Santa Catarina, pois permitem a avaliação da fertilidade do solo e a necessidade de correção, o que pode influenciar diretamente a produtividade e a qualidade das bananas.\n', 'search_method': 'similarity_threshold', 'question': 'Como deve-se proceder a coleta e amostragem de solo para uma área a ser implantada e uma em produção para o cultivo de banana em Santa Catarina?'}
+Ground-Truth:
+
+('Antes da implantação do pomar, devem-se coletar 20 amostras simples por área/gleba homogênea para formar a amostra composta que será analisada. As amostras devem ser coletadas de forma aleatória, cobrindo toda a área amostrada. Além da amostragem superficial (0-20cm), recomenda-se coletar, sempre que possível, amostras em subsuperfície (20-40cm), principalmente para caracterização da fertilidade do solo que antecede a implantação dos pomares e por ser o momento propício para incorporação de corretivos, condicionadores e fertilizantes em profundidade. Já a amostragem em pomares de bananeira em produção leva em consideração a forma de aplicação dos fertilizantes na superfície do solo. Quando a fertilização é realizada em área total, devem ser coletadas no mínimo 20 amostras simples de forma aleatória e bem distribuídas em toda a área do pomar. Por outro lado, nos pomares em que os fertilizantes são aplicados na superfície do solo de forma localizada, como em faixa, em meia-lua na frente da planta filha ou via fertirrigação, as amostras simples devem ser coletadas próximo à área fertilizada (a uma distância aproximada de 30cm da faixa de aplicação dos fertilizantes). Nesse caso, tendo em vista o gradiente de fertilidade e acidez do solo proporcionados pela adubação localizada “otimizada”, recomenda-se realizar a amostragem de solo também nas entrelinhas para monitorar a fertilidade do solo dessa área.',)
+Roberta: Precision = 
+tensor([0.8629])
+Recall = 
+tensor([0.8658])
+F1 = 
+tensor([0.8644])
+
+
+
+
+Timbau: Precision = 
+tensor([0.6341])
+Recall = 
+tensor([0.6360])
+F1 = 
+tensor([0.6351])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.80 MB
+    -> RAM Total Sistema: 19.8% (12.26 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.61 MB
+    -> RAM Total Sistema: 19.8% (12.26 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.2053 segundos
+    -> RAM do Processo: 1380.20 MB (Variação: +473.59 MB)
+    -> RAM Total Sistema: 20.5% (12.73 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.4957 segundos
+    -> RAM do Processo: 1380.36 MB (Variação: +491.56 MB)
+    -> RAM Total Sistema: 20.5% (12.75 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1380.36 MB
+    -> RAM Total Sistema: 20.5% (12.75 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999954546
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 295.4528 segundos
+    -> RAM do Processo: 3149.00 MB (Variação: +1768.64 MB)
+    -> RAM Total Sistema: 21.3% (13.20 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA resposta completa para a pergunta do usuário é:\n\nO manejo de um bananal envolve várias etapas importantes para garantir o crescimento saudável e produtivo das bananeiras. Aqui estão algumas das principais etapas a serem realizadas:\n\n1. **Seleção e preparação do solo**: A escolha do local adequado para o cultivo, a preparação do solo, incluindo a remoção de vegetação nativa, a adubação e a compactação, são fundamentais para o sucesso do bananal.\n\n2. **Plantio**: A escolha das variedades de bananeira, a preparação das mudas, o plantio em fileiras uniformes e a manutenção da densidade adequada são etapas críticas.\n\n3. **Irrigação**: A irrigação eficiente é crucial para o crescimento das bananeiras. O uso de sistemas de irrigação modernos, como gotejamento ou microaspersão, pode ajudar a reduzir o desperdício de água e a maximizar o crescimento.\n\n4. **Fertilidade do solo**: A aplicação de fertilizantes orgânicos ou químicos, dependendo das necessidades específicas do bananal, pode ajudar a manter a fertilidade do solo e a promover o crescimento das bananeiras.\n\n5. **Controle de pragas e doenças**: A identificação e o controle de pragas e doenças, como a bactéria Xanthomonas campestris, que causa a mancha de bactéria, são fundamentais para manter a saúde das bananeiras.\n\n6. **Pós-colheita**: A manutenção do bananal após a colheita, incluindo a remoção das folhas mortas e a aplicação de fertilizantes, pode ajudar a manter a produtividade do bananal.\n\n7. **Monitoramento e ajuste**: O monitoramento constante do bananal, incluindo a análise da produtividade, da qualidade das frutas e da saúde das bananeiras, pode ajudar a identificar áreas de melhoria e a ajustar as estratégias de manejo.\n\nEssas etapas são fundamentais para garantir o sucesso do bananal e maximizar a produtividade das bananeiras.\n', 'sources': '', 'history': '\n0 Pergunta\nQuais as principais etapas a serem realizadas para o manejo de um bananal?\n\n1 Pergunta\nA resposta completa para a pergunta do usuário é:\n\nO manejo de um bananal envolve várias etapas importantes para garantir o crescimento saudável e produtivo das bananeiras. Aqui estão algumas das principais etapas a serem realizadas:\n\n1. **Seleção e preparação do solo**: A escolha do local adequado para o cultivo, a preparação do solo, incluindo a remoção de vegetação nativa, a adubação e a compactação, são fundamentais para o sucesso do bananal.\n\n2. **Plantio**: A escolha das variedades de bananeira, a preparação das mudas, o plantio em fileiras uniformes e a manutenção da densidade adequada são etapas críticas.\n\n3. **Irrigação**: A irrigação eficiente é crucial para o crescimento das bananeiras. O uso de sistemas de irrigação modernos, como gotejamento ou microaspersão, pode ajudar a reduzir o desperdício de água e a maximizar o crescimento.\n\n4. **Fertilidade do solo**: A aplicação de fertilizantes orgânicos ou químicos, dependendo das necessidades específicas do bananal, pode ajudar a manter a fertilidade do solo e a promover o crescimento das bananeiras.\n\n5. **Controle de pragas e doenças**: A identificação e o controle de pragas e doenças, como a bactéria Xanthomonas campestris, que causa a mancha de bactéria, são fundamentais para manter a saúde das bananeiras.\n\n6. **Pós-colheita**: A manutenção do bananal após a colheita, incluindo a remoção das folhas mortas e a aplicação de fertilizantes, pode ajudar a manter a produtividade do bananal.\n\n7. **Monitoramento e ajuste**: O monitoramento constante do bananal, incluindo a análise da produtividade, da qualidade das frutas e da saúde das bananeiras, pode ajudar a identificar áreas de melhoria e a ajustar as estratégias de manejo.\n\nEssas etapas são fundamentais para garantir o sucesso do bananal e maximizar a produtividade das bananeiras.\n', 'search_method': 'similarity_threshold', 'question': 'Quais as principais etapas a serem realizadas para o manejo de um bananal?'}
+Ground-Truth:
+
+('Controle de vegetação espontânea, Densidade de plantio, Desbaste de perfilhos, Desfollha, Desvio de filhotes e de cachos, Ensacamento dos cachos, Escoramento ou amarração da bananeira, Manejo do pseudocaule após a colheita, Poda de coração e Poda de pencas.',)
+Roberta: Precision = 
+tensor([0.8219])
+Recall = 
+tensor([0.8587])
+F1 = 
+tensor([0.8399])
+
+
+
+
+Timbau: Precision = 
+tensor([0.4858])
+Recall = 
+tensor([0.5873])
+F1 = 
+tensor([0.5317])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 889.30 MB
+    -> RAM Total Sistema: 19.6% (12.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.96 MB
+    -> RAM Total Sistema: 19.6% (12.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.3712 segundos
+    -> RAM do Processo: 1380.59 MB (Variação: +473.64 MB)
+    -> RAM Total Sistema: 20.3% (12.63 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.5612 segundos
+    -> RAM do Processo: 1380.75 MB (Variação: +491.45 MB)
+    -> RAM Total Sistema: 20.3% (12.63 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1380.75 MB
+    -> RAM Total Sistema: 20.3% (12.63 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9591804774554804
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 309.8624 segundos
+    -> RAM do Processo: 3165.60 MB (Variação: +1784.85 MB)
+    -> RAM Total Sistema: 21.2% (13.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nO ensacamento de cachos é um processo importante na cultura da banana, realizado para proteger os frutos ainda em desenvolvimento de pragas e doenças. Aqui está como é realizado o ensacamento de cachos e quais os seus benefícios:\n\n**Realização do Ensacamento de Cachos:**\n\nO ensacamento de cachos é realizado manualmente, onde os sacos são colocados sobre os cachos de banana ainda verdes e em fase de desenvolvimento. Os sacos servem como uma barreira que impede a colonização dos frutos ainda em desenvolvimento por pragas e doenças. O ensacamento é indicado durante todo o ano, porém, a atenção deve ser redobrada após períodos longos de dias nublados e quentes, o que favorece ainda mais o desenvolvimento das populações destes insetos.\n\n**Benefícios do Ensacamento de Cachos:**\n\nOs benefícios do ensacamento de cachos incluem:\n\n* Proteção dos frutos ainda em desenvolvimento contra pragas e doenças;\n* Redução da perda de frutos devido a pragas e doenças;\n* Melhoria da qualidade dos frutos;\n* Redução da necessidade de uso de inseticidas e outros produtos químicos;\n* Melhoria da produtividade da planta.\n\nEm resumo, o ensacamento de cachos é um processo importante na cultura da banana que protege os frutos ainda em desenvolvimento de pragas e doenças, melhorando a qualidade dos frutos e a produtividade da planta.\n', 'sources': '', 'history': '\n0 Pergunta\nComo é realizado o ensacamento de cachos e quais os seus benefícios?\n\n1 Pergunta\nO ensacamento de cachos é um processo importante na cultura da banana, realizado para proteger os frutos ainda em desenvolvimento de pragas e doenças. Aqui está como é realizado o ensacamento de cachos e quais os seus benefícios:\n\n**Realização do Ensacamento de Cachos:**\n\nO ensacamento de cachos é realizado manualmente, onde os sacos são colocados sobre os cachos de banana ainda verdes e em fase de desenvolvimento. Os sacos servem como uma barreira que impede a colonização dos frutos ainda em desenvolvimento por pragas e doenças. O ensacamento é indicado durante todo o ano, porém, a atenção deve ser redobrada após períodos longos de dias nublados e quentes, o que favorece ainda mais o desenvolvimento das populações destes insetos.\n\n**Benefícios do Ensacamento de Cachos:**\n\nOs benefícios do ensacamento de cachos incluem:\n\n* Proteção dos frutos ainda em desenvolvimento contra pragas e doenças;\n* Redução da perda de frutos devido a pragas e doenças;\n* Melhoria da qualidade dos frutos;\n* Redução da necessidade de uso de inseticidas e outros produtos químicos;\n* Melhoria da produtividade da planta.\n\nEm resumo, o ensacamento de cachos é um processo importante na cultura da banana que protege os frutos ainda em desenvolvimento de pragas e doenças, melhorando a qualidade dos frutos e a produtividade da planta.\n', 'search_method': 'similarity_threshold', 'question': 'Como é realizado o ensacamento de cachos e quais os seus benefícios?'}
+Ground-Truth:
+
+('Pode ser feito de forma precoce, ou seja, em inflorescências pendentes e ainda não abertas, ou de forma tardia, quando os cachos apresentarem a falsa penca e duas a quatro pencas masculinas já abertas. Neste momento, o ensacamento pode ser feito concomitantemente com outras práticas como poda de pencas, poda do coração e escoramento, quando coincidentes. Para a execução manual do ensacamento, são necessários escada, sacos plásticos e tiras de fitilhos. Com o auxílio da escada, coloca-se o saco ao redor do cacho, prendendo com a tira de fitilho acima da cicatriz do engaço. O ensacamento também pode ser feito utilizando-se um equipamento específico denominado ensacador ou embolsador, indicado para fixação de sacos plásticos em cachos nas bananeiras. É uma prática essencial para a qualidade dos frutos, proporcionando as seguintes vantagens: aumento de peso dos cachos; produção de frutos mais longos e com maior diâmetro; encurtamento do período entre floração e colheita; produção de frutos com maior brilho; redução de danos mecânicos decorrentes do atrito causado pelas folhas, deposição de poeiras e ação dos ventos e granizo leve; controle de danos causados por diversos animais como insetos, roedores, pássaros, etc.; proteção contra a deposição de produtos químicos resultantes das pulverizações; redução de danos nas colheitas; e proteção dos frutos contra manchas de seiva.',)
+Roberta: Precision = 
+tensor([0.8740])
+Recall = 
+tensor([0.8583])
+F1 = 
+tensor([0.8661])
+
+
+
+
+Timbau: Precision = 
+tensor([0.6528])
+Recall = 
+tensor([0.5974])
+F1 = 
+tensor([0.6239])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.43 MB
+    -> RAM Total Sistema: 19.8% (12.29 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.24 MB
+    -> RAM Total Sistema: 19.9% (12.32 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.0398 segundos
+    -> RAM do Processo: 1333.43 MB (Variação: +427.19 MB)
+    -> RAM Total Sistema: 20.5% (12.73 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.2357 segundos
+    -> RAM do Processo: 1333.59 MB (Variação: +445.16 MB)
+    -> RAM Total Sistema: 20.5% (12.73 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1333.59 MB
+    -> RAM Total Sistema: 20.5% (12.73 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999888889
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 236.8025 segundos
+    -> RAM do Processo: 3064.88 MB (Variação: +1731.29 MB)
+    -> RAM Total Sistema: 21.1% (13.09 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA cultura da banana é afetada por várias doenças, incluindo as quarentenárias e não quarentenárias. As doenças quarentenárias são causadas por patógenos que podem ser controladas por medidas de controle de quarentena, como a inspeção de material vegetal, controle de movimentação de plantas e controle de pragas.\n\nAlgumas das doenças não classificadas como quarentenárias na cultura da banana incluem:\n\n*   **Podridão da coroa**: é causada pela bactéria Erwinia chrysanthemi e pode ser controlada com o uso de fungicidas e práticas de manejo cultural.\n*   **Estrias da bananeira (BSV)**: é causada pelo vírus Banana streak virus e pode ser controlada com o uso de técnicas de manejo cultural, como a rotação de culturas e o controle de pragas.\n*   **Moko da bananeira**: é causada pela bactéria Ralstonia solanacearum raça 2 e pode ser controlada com o uso de técnicas de manejo cultural, como a rotação de culturas e o controle de pragas.\n\nÉ importante notar que essas doenças podem ser controladas com o uso de técnicas de manejo cultural e práticas de manejo de doenças, mas a prevenção é a melhor forma de controlá-las.\n', 'sources': '', 'history': '\n0 Pergunta\nQuais doenças não classificadas como quarentenárias na cultura da banana?\n\n1 Pergunta\nA cultura da banana é afetada por várias doenças, incluindo as quarentenárias e não quarentenárias. As doenças quarentenárias são causadas por patógenos que podem ser controladas por medidas de controle de quarentena, como a inspeção de material vegetal, controle de movimentação de plantas e controle de pragas.\n\nAlgumas das doenças não classificadas como quarentenárias na cultura da banana incluem:\n\n*   **Podridão da coroa**: é causada pela bactéria Erwinia chrysanthemi e pode ser controlada com o uso de fungicidas e práticas de manejo cultural.\n*   **Estrias da bananeira (BSV)**: é causada pelo vírus Banana streak virus e pode ser controlada com o uso de técnicas de manejo cultural, como a rotação de culturas e o controle de pragas.\n*   **Moko da bananeira**: é causada pela bactéria Ralstonia solanacearum raça 2 e pode ser controlada com o uso de técnicas de manejo cultural, como a rotação de culturas e o controle de pragas.\n\nÉ importante notar que essas doenças podem ser controladas com o uso de técnicas de manejo cultural e práticas de manejo de doenças, mas a prevenção é a melhor forma de controlá-las.\n', 'search_method': 'similarity_threshold', 'question': 'Quais doenças não classificadas como quarentenárias na cultura da banana?'}
+Ground-Truth:
+
+('MAL-DO-PANAMÁ – TR4, TOPO EM LEQUE, MOKO DA BANANEIRA e MOSAICO DAS BRÁCTEAS.',)
+Roberta: Precision = 
+tensor([0.7756])
+Recall = 
+tensor([0.8132])
+F1 = 
+tensor([0.7940])
+
+
+
+
+Timbau: Precision = 
+tensor([0.3180])
+Recall = 
+tensor([0.3750])
+F1 = 
+tensor([0.3442])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.86 MB
+    -> RAM Total Sistema: 19.6% (12.14 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.68 MB
+    -> RAM Total Sistema: 19.6% (12.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.0718 segundos
+    -> RAM do Processo: 1380.35 MB (Variação: +473.67 MB)
+    -> RAM Total Sistema: 20.5% (12.70 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.2942 segundos
+    -> RAM do Processo: 1380.50 MB (Variação: +491.64 MB)
+    -> RAM Total Sistema: 20.5% (12.70 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1380.50 MB
+    -> RAM Total Sistema: 20.5% (12.70 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.949037456875364
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 330.4208 segundos
+    -> RAM do Processo: 3165.83 MB (Variação: +1785.33 MB)
+    -> RAM Total Sistema: 21.2% (13.16 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nA antracnose é uma doença fúngica que afeta a banana, causada pelo fungo Colletotrichum musae. Os principais sintomas incluem:\n\n* Manchas necróticas de coloração castanho-avermelhada e textura áspera que evoluem para superfícias, depreciando severamente o valor comercial do cacho sem, no entanto, afetar a polpa.\n* Ferrugem, que é uma mancha necrótica de coloração castanho-avermelhada e textura áspera que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n* Desfolha, que é a perda das folhas da planta, que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n* Podridão da coroa, que é a decomposição da coroa da planta, que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n\nÉ importante notar que a antracnose pode ser controlada com o uso de fungicidas e práticas de manejo adequadas, como a remoção de restos de infecção e a manutenção de uma boa higiene na plantação. Além disso, é fundamental realizar o monitoramento contínuo da plantação para detectar qualquer sinal de infecção e tomar medidas corretivas o mais rápido possível.\n', 'sources': '', 'history': '\n0 Pergunta\nDescreva a antracnose na banana e seus principais sintomas\n\n1 Pergunta\nA antracnose é uma doença fúngica que afeta a banana, causada pelo fungo Colletotrichum musae. Os principais sintomas incluem:\n\n* Manchas necróticas de coloração castanho-avermelhada e textura áspera que evoluem para superfícias, depreciando severamente o valor comercial do cacho sem, no entanto, afetar a polpa.\n* Ferrugem, que é uma mancha necrótica de coloração castanho-avermelhada e textura áspera que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n* Desfolha, que é a perda das folhas da planta, que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n* Podridão da coroa, que é a decomposição da coroa da planta, que pode ocorrer em qualquer parte da planta, incluindo as folhas, os pseudocaules e os frutos.\n\nÉ importante notar que a antracnose pode ser controlada com o uso de fungicidas e práticas de manejo adequadas, como a remoção de restos de infecção e a manutenção de uma boa higiene na plantação. Além disso, é fundamental realizar o monitoramento contínuo da plantação para detectar qualquer sinal de infecção e tomar medidas corretivas o mais rápido possível.\n', 'search_method': 'similarity_threshold', 'question': 'Descreva a antracnose na banana e seus principais sintomas'}
+Ground-Truth:
+
+('A antracnose é uma das principais doenças pós-colheita da bananeira e ocorre praticamente em todas as regiões produtoras. Essa doença prejudica a aparência e reduz o valor nutricional dos frutos, que ficam impróprios para o mercado. No Brasil, o único agente causal da antracnose é o fungo Colletotrichum musae, porém, existem relatos de diversas espécies de Colletotrichum capazes de causar doença em bananas. Os conídios de Colletotrichum musae produzidos em tecidos senescentes de bananeira, inclusive folhas, brácteas e pedúnculos, são liberados da matriz mucilaginosa que envolve os acérvulos e transportados para outros frutos por água livre, como chuva. O conídio se adere à superfície de um fruto verde, germina e forma apressório em até 72h. O fungo permanece quiescente até a maturação dos frutos, quando os sintomas podem ser visualizados. Colletotrichum musae leva a alterações fisiológicas e bioquímicas nos frutos que aceleram sua maturação e senescência. Porém, se a infecção ocorrer em ferimentos sobre frutos verdes, os sintomas podem se desenvolver. A doença se caracteriza pela formação de lesões escuras deprimidas restritas ao pericarpo de fruto maduro, exceto quando este é exposto a altas temperaturas, ou em adiantado estágio de maturação. Sob condições de alta umidade, o fungo produz acérvulos envoltos de uma matriz mucilaginosa alaranjada, que abriga os conídios do fungo.',)
+Roberta: Precision = 
+tensor([0.8567])
+Recall = 
+tensor([0.8435])
+F1 = 
+tensor([0.8501])
+
+
+
+
+Timbau: Precision = 
+tensor([0.6160])
+Recall = 
+tensor([0.5949])
+F1 = 
+tensor([0.6053])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 889.79 MB
+    -> RAM Total Sistema: 19.6% (12.13 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 907.60 MB
+    -> RAM Total Sistema: 19.6% (12.15 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.3049 segundos
+    -> RAM do Processo: 1381.23 MB (Variação: +473.63 MB)
+    -> RAM Total Sistema: 20.4% (12.67 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.6128 segundos
+    -> RAM do Processo: 1381.39 MB (Variação: +491.60 MB)
+    -> RAM Total Sistema: 20.3% (12.61 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1381.39 MB
+    -> RAM Total Sistema: 20.3% (12.61 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999950001
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 284.7818 segundos
+    -> RAM do Processo: 3164.94 MB (Variação: +1783.55 MB)
+    -> RAM Total Sistema: 21.2% (13.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': '\nO moleque-da-bananeira (Cosmopolites sordidus) é uma espécie de besouro que ataca plantas de bananeira, causando danos significativos. As principais características desse inseto incluem:\n\n*   Fase larval: As galerias criadas pelas formas jovens do moleque-da-bananeira prejudicam a translocação da seiva e, consequentemente, a absorção de água e nutrientes pela planta.\n*   Redução do diâmetro, peso e comprimento dos frutos: Os prejuízos podem ser percebidos pela redução do diâmetro, peso e comprimento dos frutos, com perdas que giram em torno de 30% e podem chegar a 100% em bananeiras extremamente atacadas.\n*   Tombamento das plantas: As galerias favorecem o tombamento das plantas, podendo ser agravado em regiões onde existe um histórico de ventos fortes.\n*   Transmissão e facilitação da penetração do fungo causador da fusariose: Uma das preocupações mais recentes relacionadas ao manejo da população desse besouro se refere à possibilidade de transmissão e facilitação da penetração do fungo causador da fusariose nas plantas de bananeira.\n\nEssas características são fundamentais para entender o impacto do moleque-da-bananeira nas plantas de bananeira e a importância de seu manejo eficaz.\n', 'sources': '', 'history': '\n0 Pergunta\nQuais as principais características do moleque da bananeira?\n\n1 Pergunta\nO moleque-da-bananeira (Cosmopolites sordidus) é uma espécie de besouro que ataca plantas de bananeira, causando danos significativos. As principais características desse inseto incluem:\n\n*   Fase larval: As galerias criadas pelas formas jovens do moleque-da-bananeira prejudicam a translocação da seiva e, consequentemente, a absorção de água e nutrientes pela planta.\n*   Redução do diâmetro, peso e comprimento dos frutos: Os prejuízos podem ser percebidos pela redução do diâmetro, peso e comprimento dos frutos, com perdas que giram em torno de 30% e podem chegar a 100% em bananeiras extremamente atacadas.\n*   Tombamento das plantas: As galerias favorecem o tombamento das plantas, podendo ser agravado em regiões onde existe um histórico de ventos fortes.\n*   Transmissão e facilitação da penetração do fungo causador da fusariose: Uma das preocupações mais recentes relacionadas ao manejo da população desse besouro se refere à possibilidade de transmissão e facilitação da penetração do fungo causador da fusariose nas plantas de bananeira.\n\nEssas características são fundamentais para entender o impacto do moleque-da-bananeira nas plantas de bananeira e a importância de seu manejo eficaz.\n', 'search_method': 'similarity_threshold', 'question': 'Quais as principais características do moleque da bananeira?'}
+Ground-Truth:
+
+('Cosmopolites sordidus (Germar, 1824) - Ordem: Coleoptera - Família: Curculionoidae. Biologia: Besouros de coloração negra, medindo aproximadamente 11mm de comprimento por 5mm de largura. Apresentam hábitos de forrageamento e reprodução predominantemente noturnos, escondendo-se durante o dia em ambientes mais úmidos e abrigados da luz, como touceiras, bainhas e restos culturais do pomar. Apesar de possuir asas, esta espécie não voa. As fêmeas colocam seus ovos em pequenas cavidades no rizoma das plantas de bananeira. As larvas eclodem e penetram o tecido vegetal, desenvolvendo-se no interior dos rizomas por um período que varia entre 30 e 50 dias, dependendo dos níveis nutricionais da planta, do cultivar atacado, das condições climáticas e da temperatura. Após esse período, as larvas se dirigem mais uma vez para a periferia do rizoma, onde passam pelo processo de pupa, por um período de aproximadamente 10 dias, após o qual um novo adulto emerge.',)
+Roberta: Precision = 
+tensor([0.8404])
+Recall = 
+tensor([0.8433])
+F1 = 
+tensor([0.8418])
+
+
+
+
+Timbau: Precision = 
+tensor([0.5932])
+Recall = 
+tensor([0.5728])
+F1 = 
+tensor([0.5828])
+
+
+/home/felipekenji/.pyenv/versions/rag_testes_3_13/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+Retry: 0
+Retry: 1
+Retry: 2
+Retry: 3
+Retry: 4
+
+--- [MONITOR] Iniciando 'initialize_model' ---
+    -> RAM do Processo: 888.88 MB
+    -> RAM Total Sistema: 19.6% (12.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+
+--- [MONITOR] Iniciando '_constroeGrafo' ---
+    -> RAM do Processo: 906.84 MB
+    -> RAM Total Sistema: 19.6% (12.18 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+--- [MONITOR] Finalizado '_constroeGrafo' ---
+    -> Duração da Execução: 4.5472 segundos
+    -> RAM do Processo: 1380.32 MB (Variação: +473.48 MB)
+    -> RAM Total Sistema: 20.5% (12.75 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Modelo e grafo carregados com sucesso!
+Grafo visual salvo como 'graph_final.png'
+--- [MONITOR] Finalizado 'initialize_model' ---
+    -> Duração da Execução: 4.8293 segundos
+    -> RAM do Processo: 1380.32 MB (Variação: +491.45 MB)
+    -> RAM Total Sistema: 20.4% (12.67 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+
+--- [MONITOR] Iniciando 'search' ---
+    -> RAM do Processo: 1380.32 MB
+    -> RAM Total Sistema: 20.4% (12.67 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+    -> Aviso: Contexto CUDA ainda não inicializado pelo PyTorch. Medição de pico será feita nos próximos passos.
+    -> Score de 'llm_context_precision_without_reference': 0.9999999999958334
+--- [MONITOR] Finalizado 'search' ---
+    -> Duração da Execução: 339.6801 segundos
+    -> RAM do Processo: 3146.22 MB (Variação: +1765.90 MB)
+    -> RAM Total Sistema: 21.2% (13.17 GB / 62.05 GB)
+    -> VRAM GPU 0 (NVIDIA RTX A2000 12GB): 61.29% (7.35 GB / 11.99 GB)
+    -> VRAM Alocada (Final) GPU 0: 0.00 MB
+    -> PICO de VRAM Alocada (PyTorch) GPU 0: 0.00 MB
+------------------------------------------------------------
+Resposta do modelo:
+
+{'answer': "\nA temperatura e a umidade relativa são fatores críticos para o processo de climatização da banana. Aqui estão as informações essenciais que um produtor deve saber sobre esses fatores:\n\n**Temperatura:**\n\n*   A temperatura ideal para a climatização da banana varia de 14°C a 18°C, dependendo do tipo de banana e do objetivo do produtor.\n*   A temperatura mais baixa (14°C) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n*   A temperatura mais fria (16°C) é recomendada para um grupo diversificado que inclui híbridos da Embrapa/Epagri, como BRS Platina, BRS Fhia Maravilha, BRS Tropical e BRS Thap Maeo, além de cultivares como a Ouro, todos direcionados ao mercado brasileiro e com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações achocolatadas).\n*   A temperatura mais alta (18°C) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n\n**Umidade Relativa:**\n\n*   A umidade relativa ideal para a climatização da banana varia de 90% a 95%.\n*   A umidade relativa mais baixa (90%) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n*   A umidade relativa mais alta (95%) é recomendada para um grupo diversificado que inclui híbridos da Embrapa/Epagri, como BRS Platina, BRS Fhia Maravilha, BRS Tropical e BRS Thap Maeo, além de cultivares como a Ouro, todos direcionados ao mercado brasileiro e com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações achocolatadas).\n\nEssas informações são essenciais para garantir que a climatização da banana seja feita de forma eficaz e que a qualidade da fruta seja mantida.\n", 'sources': '', 'history': "\n0 Pergunta\n Quais as informações que um produtor deve saber sobre TEMPERATURA E UMIDADE RELATIVA PARA CLIMATIZAÇÃO da banana?\n\n1 Pergunta\nA temperatura e a umidade relativa são fatores críticos para o processo de climatização da banana. Aqui estão as informações essenciais que um produtor deve saber sobre esses fatores:\n\n**Temperatura:**\n\n*   A temperatura ideal para a climatização da banana varia de 14°C a 18°C, dependendo do tipo de banana e do objetivo do produtor.\n*   A temperatura mais baixa (14°C) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n*   A temperatura mais fria (16°C) é recomendada para um grupo diversificado que inclui híbridos da Embrapa/Epagri, como BRS Platina, BRS Fhia Maravilha, BRS Tropical e BRS Thap Maeo, além de cultivares como a Ouro, todos direcionados ao mercado brasileiro e com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações achocolatadas).\n*   A temperatura mais alta (18°C) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n\n**Umidade Relativa:**\n\n*   A umidade relativa ideal para a climatização da banana varia de 90% a 95%.\n*   A umidade relativa mais baixa (90%) é recomendada para cultivares do subgrupo Cavendish, como Nanicão, Grande Naine e Williams, que são colhidas no ponto '¾ normal' e destinadas ao consumo nos graus de maturação 5 (casca amarela com pontas verdes) a 6 (totalmente amarela).\n*   A umidade relativa mais alta (95%) é recomendada para um grupo diversificado que inclui híbridos da Embrapa/Epagri, como BRS Platina, BRS Fhia Maravilha, BRS Tropical e BRS Thap Maeo, além de cultivares como a Ouro, todos direcionados ao mercado brasileiro e com ponto de consumo ideal nos graus 6 a 7 (casca amarela com pontuações achocolatadas).\n\nEssas informações são essenciais para garantir que a climatização da banana seja feita de forma eficaz e que a qualidade da fruta seja mantida.\n", 'search_method': 'similarity_threshold', 'question': ' Quais as informações que um produtor deve saber sobre TEMPERATURA E UMIDADE RELATIVA PARA CLIMATIZAÇÃO da banana?'}
+Ground-Truth:
+
+A temperatura ideal para uma boa climatização é de 18°C para bananas do subgrupo Cavendish (Caturra) e 16°C para bananas do subgrupo Prata (Branca). No entanto, a climatização é possível numa faixa de 13°C até 20°C. Acima de 20°C, a maturação será acelerada e poderá diminuir a vida de prateleira no mercado e na mesa do consumidor. Acima de 21°C, poderá ocorrer o amolecimento da polpa, devido ao rápido processo de transformação do amido em açúcares, inviabilizando o transporte e a comercialização da fruta in natura. Abaixo de 12°C, acontece o chilling (queima por frio) na fruta. A casca fica com manchas esverdeadas e estrias escurecidas devido ao rompimento de células e vasos condutores, com extravasamento do líquido de seu interior. Quanto mais baixa a temperatura, até o limite inferior recomendado, maior será o tempo de climatização e mais longa a vida de prateleira do produto. A umidade relativa do ar dentro da câmara deve ficar entre 85% e 95%. Umidade acima de 95% pode levar ao desenvolvimento de doenças fúngicas de pós-colheita e o desverdecimento da casca é retardado. Para baixar a umidade dentro da câmara, utiliza-se aparelhos desumidificadores. Por outro lado, umidade abaixo de 85% pode causar perda de peso da fruta por desidratação, enrugamento da casca, desprendimento dos frutos da almofada, coloração opaca (sem brilho) da casca, retardamento da maturação e acentuação de manchas nas cascas. Para aumentar a umidade na câmara de climatização, podem-se utilizar nebulizadores de água, serragem molhada no piso ou recipientes contendo água.
+Roberta: Precision = 
+tensor([0.8351])
+Recall = 
+tensor([0.8419])
+F1 = 
+tensor([0.8385])
+
+
+
+
+Timbau: Precision = 
+tensor([0.6002])
+Recall = 
+tensor([0.5987])
+F1 = 
+tensor([0.5995])
+
+

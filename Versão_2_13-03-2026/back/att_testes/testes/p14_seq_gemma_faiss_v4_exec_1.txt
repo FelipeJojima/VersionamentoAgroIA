@@ -1,0 +1,71 @@
+ Quais as informações que um produtor deve saber sobre TEMPERATURA E UMIDADE RELATIVA PARA CLIMATIZAÇÃO da banana?
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+A conversa iniciou discutindo o cultivo de bananas Cavendish SCS452 Nanicão Corupá em Santa Catarina, abrangendo preparo do solo, colheita e pós-colheita. O foco então se desviou para a doença da antracnose, causada pelo fungo *Colletotrichum musae*. Os sintomas da antracnose foram descritos, impactando a qualidade e segurança dos frutos, além de poder causar podridão da coroa.
+
+Posteriormente, o usuário perguntou sobre o "moleque da bananeira", cujo nome científico é Broca-do-Rizoma. A IA respondeu descrevendo as características desse inseto, destacando os seguintes aspectos:
+
+* **Danos:** Ataca raízes e caule, obstruindo vasos xilemais, reduzindo o desenvolvimento dos frutos e favorecendo o tombamento das plantas. Também há preocupação com sua possível relação com a fusariose.
+* **Fisiologia:** As larvas são as mais danosas, criando galerias no caule e raízes.
+
+Foram mencionados documentos visuais que ilustravam os danos causados pelo moleque da bananeira.
+
+1 Pergunta
+ Quais as informações que um produtor deve saber sobre TEMPERATURA E UMIDADE RELATIVA PARA CLIMATIZAÇÃO da banana?
+
+2 Pergunta
+Para garantir uma ótima climatização da banana após a colheita, o produtor precisa estar atento à temperatura e umidade relativa dentro da câmara. 
+
+**Temperatura Ideal:**
+
+* Para bananas Cavendish (subgrupo Caturra): 18°C é a temperatura ideal.
+* Para bananas Prata (subgrupo Branca): 16°C é a temperatura ideal.
+
+É importante lembrar que a climatização ainda é possível em faixas de temperatura entre 13°C e 20°C. 
+
+* **Atenção!**: Temperaturas acima de 20°C aceleram a maturação, podendo reduzir a vida útil da banana tanto no mercado quanto na mesa do consumidor. Em temperaturas superiores a 21°C, a polpa pode amolecer rapidamente devido à conversão rápida do amido em açúcares, tornando difícil o transporte e venda da fruta fresca. Já temperaturas abaixo de 12°C causam o fenômeno chamado "chilling" ou queima por frio, deixando manchas esverdeadas e estrias escuras na casca devido à ruptura de células e vasos sanguíneos. Quanto menor a temperatura, até o limite mínimo recomendado, maior o tempo de climatização e a vida útil da banana.
+
+**Umidades Relativas Ideais:**
+
+* A umidade relativa ideal dentro da câmara deve estar entre 85% e 95%. 
+* Uma umidade acima de 95% pode favorecer o desenvolvimento de doenças fúngicas durante a fase pós-colheita, além de provocar o desverdecimento da banana.
+
+
+Seguindo essas recomendações de temperatura e umidade relativa, o produtor garante uma climatização eficiente e segura para suas bananas, maximizando a qualidade e a longevidade do produto final.
+
+
+Answer:
+
+Para garantir uma ótima climatização da banana após a colheita, o produtor precisa estar atento à temperatura e umidade relativa dentro da câmara. 
+
+**Temperatura Ideal:**
+
+* Para bananas Cavendish (subgrupo Caturra): 18°C é a temperatura ideal.
+* Para bananas Prata (subgrupo Branca): 16°C é a temperatura ideal.
+
+É importante lembrar que a climatização ainda é possível em faixas de temperatura entre 13°C e 20°C. 
+
+* **Atenção!**: Temperaturas acima de 20°C aceleram a maturação, podendo reduzir a vida útil da banana tanto no mercado quanto na mesa do consumidor. Em temperaturas superiores a 21°C, a polpa pode amolecer rapidamente devido à conversão rápida do amido em açúcares, tornando difícil o transporte e venda da fruta fresca. Já temperaturas abaixo de 12°C causam o fenômeno chamado "chilling" ou queima por frio, deixando manchas esverdeadas e estrias escuras na casca devido à ruptura de células e vasos sanguíneos. Quanto menor a temperatura, até o limite mínimo recomendado, maior o tempo de climatização e a vida útil da banana.
+
+**Umidades Relativas Ideais:**
+
+* A umidade relativa ideal dentro da câmara deve estar entre 85% e 95%. 
+* Uma umidade acima de 95% pode favorecer o desenvolvimento de doenças fúngicas durante a fase pós-colheita, além de provocar o desverdecimento da banana.
+
+
+Seguindo essas recomendações de temperatura e umidade relativa, o produtor garante uma climatização eficiente e segura para suas bananas, maximizando a qualidade e a longevidade do produto final.
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021659&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021703&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021696&isEdicao=N&epagriTEC=S
+
+

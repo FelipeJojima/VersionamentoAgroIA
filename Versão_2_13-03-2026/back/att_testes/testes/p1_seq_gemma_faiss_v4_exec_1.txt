@@ -1,0 +1,81 @@
+Cite os principais cultivares da banana recomendados para o estado de Santa Catarina.
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+Cite os principais cultivares da banana recomendados para o estado de Santa Catarina.
+
+1 Pergunta
+De acordo com os documentos disponibilizados, os principais cultivares de banana recomendados para o estado de Santa Catarina são:
+
+
+* **Para o Litoral Norte:**  **Cavendish**, principalmente Nanicão (produzido em grande escala em cidades como Corupá, Luiz Alves e Massaranduba) e **BRS Tropics**. 
+* **Para o Litoral Sul:** **Pratas**, especialmente **SCS451 Catarina** e **PRATA ANÂ**, além de **BRS Princessa** e **BRS Thap Maeo**.
+
+
+
+É importante lembrar que estes cultivares foram escolhidos considerando fatores climáticos e solos específicos de cada região. Para obter informações mais detalhadas sobre cada cultivar, consulte os documentos disponíveis.
+
+
+Answer:
+
+De acordo com os documentos disponibilizados, os principais cultivares de banana recomendados para o estado de Santa Catarina são:
+
+
+* **Para o Litoral Norte:**  **Cavendish**, principalmente Nanicão (produzido em grande escala em cidades como Corupá, Luiz Alves e Massaranduba) e **BRS Tropics**. 
+* **Para o Litoral Sul:** **Pratas**, especialmente **SCS451 Catarina** e **PRATA ANÂ**, além de **BRS Princessa** e **BRS Thap Maeo**.
+
+
+
+É importante lembrar que estes cultivares foram escolhidos considerando fatores climáticos e solos específicos de cada região. Para obter informações mais detalhadas sobre cada cultivar, consulte os documentos disponíveis.
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014987&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021671&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021669&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021681&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021669&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021668&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021681&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021680&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021676&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021679&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021682&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021695&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021672&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021675&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021674&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021667&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021659&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021683&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021685&isEdicao=N&epagriTEC=S
+
+

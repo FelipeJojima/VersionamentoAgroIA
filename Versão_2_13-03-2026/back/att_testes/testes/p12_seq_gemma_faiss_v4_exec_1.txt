@@ -1,0 +1,77 @@
+Quais as principais características do moleque da bananeira?
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+O diálogo inicial abordava o cultivo de bananas Cavendish SCS452 Nanicão Corupá em Santa Catarina, incluindo preparação do solo, colheita e pós-colheita. Posteriormente, o foco mudou para a doença da antracnose, causada pelo fungo *Colletotrichum musae*, que afeta significativamente a qualidade e segurança dos frutos.
+
+Os sintomas da antracnose incluem:
+
+* Em frutos maduros: Lesões escuras, deprimidas e subcirculares na casca, podendo cobrir grande parte do fruto; pontos negros (acérvulos) no centro das lesões; massa de esporos cor de salmão ou rosa sob condições úmidas.
+* Interior do fruto: Polpa aquosa, mole e negra, rachas na casca e deformação do fruto em casos graves.
+
+Frutas atacadas pela antracnose têm menor durabilidade e são impróprias para consumo. A doença também pode causar podridão da coroa, afetando a fixação dos frutos e acelerando o processo de envelhecimento. Restos florais murchos nos frutos verdes facilitam a entrada do fungo, aumentando a incidência da doença.
+
+1 Pergunta
+Quais as principais características do moleque da bananeira?
+
+2 Pergunta
+As principais características do moleque da bananeira, também conhecido como Broca-do-Rizoma,  são:
+
+**Danos:**
+
+* **Ataque às raízes e caule:** Principalmente ataca as raízes e caule da bananeira, causando danos significativos à estrutura da planta.
+* **Obstrução dos vasos xilemais:** Suas larvas criam galerias dentro do caule, obstruindo os vasos xilemais responsáveis pelo transporte de água e nutrientes. Isso impede a circulação vital, levando à debilitacao da planta.
+* **Redução do desenvolvimento:** Diminui o diâmetro, peso e comprimento dos frutos, resultando em perdas produtivas que podem variar de 30% a 100%.
+* **Tombamento:** Favorece o tombamento das plantas, especialmente em áreas propícias a ventos fortes.
+* **Facilitação da fusariose:** Existe preocupação crescente sobre a capacidade do moleque da bananeira facilitar a penetração do fungo causador da fusariose (Fusarium oxysporum f. sp. cubense) nas bananeiras.
+
+**Fisiologia:**
+
+* **Fase larval:** É durante a fase larval que o inseto causa os maiores danos, criando galerias no interior do caule e raízes.
+
+
+É importante destacar que o documento fornecido mostra imagens detalhadas das marcas deixadas pelo moleque da bananeira tanto no caule quanto no rizoma da bananeira, ilustrando claramente seus impactos.
+
+
+
+Espero ter respondido satisfatoriamente à sua pergunta!
+
+
+Answer:
+
+As principais características do moleque da bananeira, também conhecido como Broca-do-Rizoma,  são:
+
+**Danos:**
+
+* **Ataque às raízes e caule:** Principalmente ataca as raízes e caule da bananeira, causando danos significativos à estrutura da planta.
+* **Obstrução dos vasos xilemais:** Suas larvas criam galerias dentro do caule, obstruindo os vasos xilemais responsáveis pelo transporte de água e nutrientes. Isso impede a circulação vital, levando à debilitacao da planta.
+* **Redução do desenvolvimento:** Diminui o diâmetro, peso e comprimento dos frutos, resultando em perdas produtivas que podem variar de 30% a 100%.
+* **Tombamento:** Favorece o tombamento das plantas, especialmente em áreas propícias a ventos fortes.
+* **Facilitação da fusariose:** Existe preocupação crescente sobre a capacidade do moleque da bananeira facilitar a penetração do fungo causador da fusariose (Fusarium oxysporum f. sp. cubense) nas bananeiras.
+
+**Fisiologia:**
+
+* **Fase larval:** É durante a fase larval que o inseto causa os maiores danos, criando galerias no interior do caule e raízes.
+
+
+É importante destacar que o documento fornecido mostra imagens detalhadas das marcas deixadas pelo moleque da bananeira tanto no caule quanto no rizoma da bananeira, ilustrando claramente seus impactos.
+
+
+
+Espero ter respondido satisfatoriamente à sua pergunta!
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021702&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021697&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021659&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021704&isEdicao=N&epagriTEC=S
+
+

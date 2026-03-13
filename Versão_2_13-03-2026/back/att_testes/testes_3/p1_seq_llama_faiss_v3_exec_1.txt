@@ -1,0 +1,63 @@
+Cite os principais cultivares da banana recomendados para o estado de Santa Catarina.
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+Cite os principais cultivares da banana recomendados para o estado de Santa Catarina.
+
+1 Pergunta
+Com base nos documentos de apoio fornecidos, os principais cultivares da banana recomendados para o estado de Santa Catarina são:
+
+*   **BRS Tropical**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Bananeira de porte alto, frutos de tamanho médio, altamente resistente ao mal do panamá (raça 1) e resistente às sigatokas amarela e negra.
+*   **BRS Fhia Maravilha**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Porte de médio a alto, e frutos grandes. Moderadamente resistente à broca da bananeira, altamente resistente ao mal do panamá (raça 1), moderadamente resistente ao nematoide e resistente às sigatokas amarela e negra.
+*   **BRS SCS Belluna**: Grupo genómico AAA. Cultivar de banana com qualidades nutricionais diferenciadas. Frutos ricos em fibras e com menos conteúdo de carboidratos e valor calórico quando comparados aos frutos dos subgrupos mais comercializados no país, Prata e Cavendish. Resiste à Sigatoka-amarela e à murcha de Fusarium e é moderadamente resistente à Sigatoka-negra.
+*   **BRS Platin**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Bananeira de porte médio, frutos de tamanho médio, altamente resistente ao mal do panamá (raça 1) e resistente às sigatokas amarela e negra.
+
+
+
+Esses cultivares são mencionados nos documentos de apoio como tendo sido avaliados e recomendados para o estado de Santa Catarina, considerando fatores como resistência a doenças, produtividade e adaptabilidade ao clima regional.
+
+
+Answer:
+
+Com base nos documentos de apoio fornecidos, os principais cultivares da banana recomendados para o estado de Santa Catarina são:
+
+*   **BRS Tropical**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Bananeira de porte alto, frutos de tamanho médio, altamente resistente ao mal do panamá (raça 1) e resistente às sigatokas amarela e negra.
+*   **BRS Fhia Maravilha**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Porte de médio a alto, e frutos grandes. Moderadamente resistente à broca da bananeira, altamente resistente ao mal do panamá (raça 1), moderadamente resistente ao nematoide e resistente às sigatokas amarela e negra.
+*   **BRS SCS Belluna**: Grupo genómico AAA. Cultivar de banana com qualidades nutricionais diferenciadas. Frutos ricos em fibras e com menos conteúdo de carboidratos e valor calórico quando comparados aos frutos dos subgrupos mais comercializados no país, Prata e Cavendish. Resiste à Sigatoka-amarela e à murcha de Fusarium e é moderadamente resistente à Sigatoka-negra.
+*   **BRS Platin**: Grupo genómico AAAB, híbrido tetraploide com 75% Maça. Bananeira de porte médio, frutos de tamanho médio, altamente resistente ao mal do panamá (raça 1) e resistente às sigatokas amarela e negra.
+
+
+
+Esses cultivares são mencionados nos documentos de apoio como tendo sido avaliados e recomendados para o estado de Santa Catarina, considerando fatores como resistência a doenças, produtividade e adaptabilidade ao clima regional.
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021681&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=014987&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021676&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021669&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021671&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021684&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021672&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021673&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021675&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021682&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021678&isEdicao=N&epagriTEC=S
+
+

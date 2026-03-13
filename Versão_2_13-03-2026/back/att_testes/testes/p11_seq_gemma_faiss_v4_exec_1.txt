@@ -1,0 +1,86 @@
+Descreva a antracnose na banana e seus principais sintomas
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+A conversa iniciou discutindo o cultivo de bananas Cavendish SCS452 Nanicão Corupá em Santa Catarina, abrangendo desde preparo do solo até a colheita e pós-colheita. O assunto evoluiu para o método de ensacamento de cachos de banana, explorando seus benefícios e desafios ambientais relacionados ao uso excessivo de plástico.
+
+Posteriormente, o usuário indagou sobre doenças da banana não consideradas quarentenárias. A IA respondeu citando a antracnose, causada pelo fungo *Colletotrichum musae*, destacando que restos florais murchos nos frutos verdes podem servir como porta de entrada para a infecção. 
+
+Apesar da resposta específica, a IA recomenda consultar fontes confiáveis para uma lista completa de doenças não quarentenárias da banana.
+
+1 Pergunta
+Descreva a antracnose na banana e seus principais sintomas
+
+2 Pergunta
+Antracnose é uma doença fúngica bastante prevalente em bananas, causada pelo fungo *Colletotrichum musae*.  Ela afeta significativamente a qualidade e a segurança dos frutos, causando perdas econômicas consideráveis.
+
+**Sintomas:**
+
+* **Em frutos maduros:** As primeiras manifestações são pequenas lesões escuras, deprimidas e subcirculares na casca, com bordas bem definidas. Essas lesões podem expandir e coalescer, cobrindo grandes áreas do fruto. No centro das lesões, frequentemente se observam pontinhos negros, representando os acérvulos do fungo, que liberam esporos para propagação.
+* **Sob condições úmidas:** É comum o desenvolvimento de massas de esporos cor de salmão ou rosa no centro das lesões, consistindo em acérvulos envoltos em uma matriz mucilaginosa.
+* **Interior do fruto:** À medida que a doença progride, a polpa subjacente às lesões fica aquosa, mole e eventualmente negra. Rachas podem aparecer na casca, e em casos graves, o fruto pode ter seu formato alterado.
+
+
+As frutas atacadas apresentam menor durabilidade e ficam inadequadas para consumo humano. Além disso, a antracnose pode causar podridão da coroa, prejudicando a fixação dos frutos e acelerando a senescence.
+
+
+
+Vale ressaltar que a presença de restos florais murchos nos frutos verdes serve como portal de entrada para o fungo, intensificando a incidência da doença.
+
+
+Answer:
+
+Antracnose é uma doença fúngica bastante prevalente em bananas, causada pelo fungo *Colletotrichum musae*.  Ela afeta significativamente a qualidade e a segurança dos frutos, causando perdas econômicas consideráveis.
+
+**Sintomas:**
+
+* **Em frutos maduros:** As primeiras manifestações são pequenas lesões escuras, deprimidas e subcirculares na casca, com bordas bem definidas. Essas lesões podem expandir e coalescer, cobrindo grandes áreas do fruto. No centro das lesões, frequentemente se observam pontinhos negros, representando os acérvulos do fungo, que liberam esporos para propagação.
+* **Sob condições úmidas:** É comum o desenvolvimento de massas de esporos cor de salmão ou rosa no centro das lesões, consistindo em acérvulos envoltos em uma matriz mucilaginosa.
+* **Interior do fruto:** À medida que a doença progride, a polpa subjacente às lesões fica aquosa, mole e eventualmente negra. Rachas podem aparecer na casca, e em casos graves, o fruto pode ter seu formato alterado.
+
+
+As frutas atacadas apresentam menor durabilidade e ficam inadequadas para consumo humano. Além disso, a antracnose pode causar podridão da coroa, prejudicando a fixação dos frutos e acelerando a senescence.
+
+
+
+Vale ressaltar que a presença de restos florais murchos nos frutos verdes serve como portal de entrada para o fungo, intensificando a incidência da doença.
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021689&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021658&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021658&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021719&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021659&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021659&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021703&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021720&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021724&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021701&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021722&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+

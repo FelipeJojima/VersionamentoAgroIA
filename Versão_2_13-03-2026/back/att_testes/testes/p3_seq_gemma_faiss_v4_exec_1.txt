@@ -1,0 +1,81 @@
+Em relação ao MAPEAMENTO DAS ÁREAS PRODUTORAS DE BANANA EM SANTA CATARINA, quais as áreas colhidas para os subgrupos Cavendish e Prata e em quais municípios ocorrem as concentrações dessas colheitas?
+
+Search Method: similarity_threshold
+
+Chat history:
+
+0 Pergunta
+O diálogo trata sobre cultivares de bananas recomendados para Santa Catarina e foca especificamente na cultivar SCS452 Nanicão Corupá. 
+
+Inicialmente, foram mencionados dois grupos regionais com seus cultivares específicos: Litoral Norte (Cavendish - Nanicão e BRS Tropics) e Litoral Sul (Pratas - SCS451 Catarina, PRATA ANÂ, BRS Princessa e BRS Thap Maeo).
+
+Em seguida, a pergunta se direcionou para as características da cultivar SCS452 Nanicão Corupá. A resposta destacou:
+
+* Grupo Genômico: AAA, subgrupo Cavendish
+* Porte Baixo
+* Boa Produtividade
+* Susceptibilidade à Sigatoka Amarela (doença fúngica)
+* Resistência ao Mal do Panamá
+* Espaçamento Ideal: 2,5m x 2,5m; 2,0m x 3,0m, ou 1.600 plantas por hectare
+
+Finalizando, foi ressaltado que a escolha da cultivar ideal varia de acordo com fatores como clima local, mercado e práticas agrícolas.
+
+1 Pergunta
+Em relação ao MAPEAMENTO DAS ÁREAS PRODUTORAS DE BANANA EM SANTA CATARINA, quais as áreas colhidas para os subgrupos Cavendish e Prata e em quais municípios ocorrem as concentrações dessas colheitas?
+
+2 Pergunta
+De acordo com o documento "MAPeamento das áreas produtoras de Banana em Santa Catarina",  a área colhida de bananeiras do subgrupo **Cavendish** totaliza **20.800 hectares**, sendo a concentração principal nas seguintes cidades:
+
+
+* **Corupá:** 4.830 ha
+* **Luiz Alves:** 3.900 ha
+* **Massaranduba:** 1.957 ha
+
+
+
+Já o subgrupo **Prata** possui um total de **7.500 hectares** colhidos, com destaque para os seguintes municípios:
+
+* **Jacinto Machado:** 2.500 ha
+* **Santa Rosa do Sul:** 820 ha
+* **Criciúma:** 560 ha
+
+
+
+
+Essa distribuição geográfica reflete as particularidades climáticas e socioeconômicas de cada região, influenciando diretamente na preferência pelos diferentes subgrupos de bananeiras.
+
+
+Answer:
+
+De acordo com o documento "MAPeamento das áreas produtoras de Banana em Santa Catarina",  a área colhida de bananeiras do subgrupo **Cavendish** totaliza **20.800 hectares**, sendo a concentração principal nas seguintes cidades:
+
+
+* **Corupá:** 4.830 ha
+* **Luiz Alves:** 3.900 ha
+* **Massaranduba:** 1.957 ha
+
+
+
+Já o subgrupo **Prata** possui um total de **7.500 hectares** colhidos, com destaque para os seguintes municípios:
+
+* **Jacinto Machado:** 2.500 ha
+* **Santa Rosa do Sul:** 820 ha
+* **Criciúma:** 560 ha
+
+
+
+
+Essa distribuição geográfica reflete as particularidades climáticas e socioeconômicas de cada região, influenciando diretamente na preferência pelos diferentes subgrupos de bananeiras.
+
+
+Sources:
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021681&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+https://sistemas.epagri.sc.gov.br/sedimob/consulta.action?subFuncao=consultaDiagnostico&cdEstrutura=021660&isEdicao=N&epagriTEC=S
+
+
