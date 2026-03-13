@@ -1,0 +1,8 @@
+melhor_exec_ind_gemma_v2: 21
+melhor_exec_ind_llama_v2: 10
+melhor_exec_ind_gemma_v4: 14
+melhor_exec_ind_llama_v4: 22
+melhor_exec_seq_gemma_v2: 13
+melhor_exec_seq_llama_v2: 3
+melhor_exec_seq_gemma_v4: 19
+melhor_exec_seq_llama_v4: 9
