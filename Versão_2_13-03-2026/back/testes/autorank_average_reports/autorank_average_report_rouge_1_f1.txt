@@ -1,0 +1,43 @@
+RELATÓRIO DE ANÁLISE - MÉDIA DAS 30 EXECUÇÕES - MÉTRICA rouge_1_f1
+======================================================================
+
+The statistical analysis was conducted for 8 populations with 10 paired samples.
+The family-wise significance level of the tests is alpha=0.050.
+We failed to reject the null hypothesis that the population is normal for all populations (minimal observed p-value=0.087). Therefore, we assume that all populations are normal.
+We applied Bartlett's test for homogeneity and failed to reject the null hypothesis (p=0.339) that the data is homoscedastic. Thus, we assume that our data is homoscedastic.
+Because we have more than two populations and all populations are normal and homoscedastic, we should use repeated measures ANOVA as omnibus test to determine if there are any significant differences between the mean values of the populations. However, the user decided to force the use of the less powerful Friedman test as omnibus test to determine if there are any significant differences between the mean values of the populations. We report the mean value (M), the standard deviation (SD) and the mean rank (MR) among all populations over the samples. Differences between populations are significant, if the difference of the mean rank is greater than the critical distance CD=3.320 of the Nemenyi test.
+We reject the null hypothesis (p=0.010) of the Friedman test that there is no difference in the central tendency of the populations Llama - M - SQ (MD=0.162+-0.132, MAD=0.086, MR=3.100), Gemma - ST - SQ (MD=0.157+-0.092, MAD=0.034, MR=3.200), Llama - ST - SQ (MD=0.157+-0.125, MAD=0.054, MR=3.900), Gemma - M - SQ (MD=0.167+-0.125, MAD=0.060, MR=3.900), Gemma - ST - IQ (MD=0.171+-0.136, MAD=0.105, MR=4.300), Llama - ST - IQ (MD=0.158+-0.171, MAD=0.095, MR=5.000), Llama - M - IQ (MD=0.275+-0.218, MAD=0.176, MR=6.200), and Gemma - M - IQ (MD=0.275+-0.140, MAD=0.068, MR=6.400). Therefore, we assume that there is a statistically significant difference between the median values of the populations.
+Based on the post-hoc Nemenyi test, we assume that there are no significant differences within the following groups: Llama - M - SQ, Gemma - ST - SQ, Llama - ST - SQ, Gemma - M - SQ, Gemma - ST - IQ, Llama - ST - IQ, Llama - M - IQ, and Gemma - M - IQ. All other differences are significant.
+
+
+--- DADOS COMPLETOS DO RANKRESULT ---
+RankResult(rankdf=
+                 meanrank    median       mad  ci_lower  ci_upper effect_size   magnitude effect_size_above magnitude_above
+Llama - M - SQ        3.1  0.161698  0.085626  0.035074  0.299866         0.0  negligible               0.0      negligible
+Gemma - ST - SQ       3.2  0.157269  0.033872  0.049878  0.234671    0.247517       small          0.247517           small
+Llama - ST - SQ       3.9  0.157395  0.053817  0.031157  0.280829    0.100036  negligible         -0.140094      negligible
+Gemma - M - SQ        3.9  0.167369  0.060149  0.042138  0.291527    0.005562  negligible         -0.097435      negligible
+Gemma - ST - IQ       4.3  0.170933  0.105429  0.033364  0.306187   -0.019231  negligible         -0.025254      negligible
+Llama - ST - IQ       5.0  0.157817  0.095329  0.026198  0.367671   -0.216298       small         -0.197111      negligible
+Llama - M - IQ        6.2  0.274740  0.176001  0.053736  0.489908   -0.648719      medium         -0.428834           small
+Gemma - M - IQ        6.4  0.274606   0.06799  0.076798  0.357522   -0.408448       small          0.334279           small
+pvalue=0.009537157461011858
+cd=3.3201413514435267
+omnibus=friedman
+posthoc=nemenyi
+all_normal=True
+pvals_shapiro=[np.float64(0.2620079338544396), np.float64(0.5407733351976928), np.float64(0.2543450447228389), np.float64(0.13744438272095005), np.float64(0.3406719208107455), np.float64(0.08722769594117888), np.float64(0.3698811390841318), np.float64(0.4741934995259332)]
+homoscedastic=True
+pval_homogeneity=0.3391410848700245
+homogeneity_test=bartlett
+alpha=0.05
+alpha_normality=0.00625
+num_samples=10
+posterior_matrix=
+None
+decision_matrix=
+None
+rope=None
+rope_mode=None
+effect_size=cohen_d
+force_mode=nonparametric)
