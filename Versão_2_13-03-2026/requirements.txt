@@ -1,0 +1,26 @@
+# --- Framework Web ---
+flask
+
+# --- Core de Machine Learning e IA ---
+torch
+transformers
+bitsandbytes
+accelerate
+safetensors
+
+# --- Processamento de Linguagem Natural (LangChain & LangGraph) ---
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langgraph
+langgraph-checkpoint-sqlite
+
+# --- Vetorização e Busca por Similaridade ---
+sentence-transformers
+faiss-cpu
+
+# --- Outras dependências ---
+pydantic
+huggingface_hub
+pyopenssl

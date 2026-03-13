@@ -1,0 +1,345 @@
+/* 
+==========================================================================
+            Arquivo de Estilos para Epagri.IA - Pagina de Chat
+========================================================================== */
+
+/* --- 1. Configuracoes Globais e Variaveis --- */
+
+:root {  /* Paleta de Cores do Tema Escuro */
+    --background-color: #1e1e24;      
+    --chat-background: #2a2a32;      
+    --input-background: #3c3c44;     
+    --text-color: #e8e8e8;            
+    --secondary-text-color: #a0a0a8;  
+    --border-color: rgba(255, 255, 255, 0.1); 
+    /* Cores de Destaque e Mensagens */
+    --accent-color: #10a37f;         
+    --user-message-bg: #2c3e50;       
+    --bot-message-bg: #383840;       
+}
+
+* {  /* Reset universal para garantir consistencia entre navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Faz com que padding e border nao aumentem o tamanho final do elemento */
+}
+
+body, html {  /* Estilos base para a pagina inteira */
+    height: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow: hidden; /* Impede a rolagem do corpo da pagina, controlando apenas no chat */
+}
+
+
+/* --- 2. Layout principal da pagina --- */
+
+/* O container principal que envolve toda a tela do chat. */
+/* Usado como referencia para o posicionamento absoluto da area de input. */
+.chat-wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--chat-background);
+}
+
+/* A area onde as mensagens aparecem. */
+/* Ocupa 100% da largura para que a barra de rolagem fique na borda da janela. */
+.chat-container {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto; /* Adiciona a barra de rolagem vertical quando necessario */
+    padding: 24px;
+    padding-bottom: 140px; /* Espaço extra no fundo para a última mensagem nao ficar atras da area de input */
+}
+
+
+/* --- 3. Elementos do Cabeçalho (Topo da Pagina) --- */
+
+.logo-area-left {  /* Container posicionado no canto superior esquerdo para os logos. */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 12px;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    align-items: center;
+}
+
+.logout-area-right {  /* Container posicionado no canto superior direito para o botao de sair. */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.logo-container {  /* Cria o círculo branco que serve de "palco" para cada imagem de logo. */
+    width: 55px;
+    height: 55px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.corner-img {  /* A imagem do logo em si, dentro do círculo. */
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; /* Garante que a imagem se ajuste sem distorcer */
+}
+
+.logout-btn {  /* Estilo principal do botão de sair. */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--secondary-text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.logout-btn:hover {  /* Efeito visual ao passar o mouse sobre o botão de sair. */
+    background-color: #5e2a2a; 
+    color: #f7c5c5;
+    border-color: #a85151;
+}
+
+.logout-btn svg {  /* O ícone SVG dentro do botao de sair. */
+    width: 20px;
+    height: 20px;
+}
+
+
+/* --- 4. Conteúdo do Chat (Area de Mensagens) --- */
+
+/* 4.1. Tela Inicial (Boas-vindas) */
+.initial-view {  /* Estiliza a mensagem "Como posso ajudar?" que aparece antes da primeira conversa. */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 840px; /* Limita a largura do texto */
+    margin: 0 auto;  
+}
+
+.initial-view h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* 4.2. Estrutura da Mensagem */
+.message-container {  /* Container que agrupa um balao de mensagem e seu botao de copiar. É centralizado na tela. */
+    display: flex;
+    flex-direction: column; 
+    max-width: 840px;
+    margin: 0 auto 24px auto; 
+    gap: 8px; /* Espaço entre o balao e o botao de copiar */
+}
+
+
+.user-message {  /* Modificador que alinha todo o conteudo do container para a direita (usuário). */
+    align-items: flex-end;
+}
+
+.bot-message {  /* Modificador que alinha todo o conteúdo do container para a esquerda (bot). */
+    align-items: flex-start;
+}
+
+/* 4.3. Balão da Mensagem */
+.message-bubble {  /* O balão visual que contém o texto da mensagem. */
+    max-width: 100%;
+    padding: 12px 16px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+}
+
+.user-message .message-bubble {  /* Estilo específico para o balão do usuário. */
+    background-color: var(--user-message-bg);
+    color: #f0f4f8;
+    border-color: #3b5068;
+    border-bottom-right-radius: 4px; /* Efeito de "cauda" no balão */
+}
+
+.bot-message .message-bubble {  /* Estilo específico para o balão do bot. */
+    background-color: var(--bot-message-bg);
+    border-color: var(--border-color);
+    border-bottom-left-radius: 4px; /* Efeito de "cauda" no balão */
+}
+
+/* 4.4. Conteúdo Interno do Balão */
+.message-text {   /* Estilo do parágrafo principal da mensagem. */
+    white-space: pre-wrap; /* Preserva quebras de linha e espaços */
+    word-wrap: break-word; /* Quebra palavras longas para não estourar o balão */
+    text-align: left; 
+}
+
+/* Estilos para títulos, subtítulos e links dentro do balão. */
+.message-bubble h3 { margin-bottom: 8px; color: var(--text-color); }
+.message-bubble h4 { margin-top: 16px; margin-bottom: 4px; font-size: 0.9rem; font-weight: 500; color: var(--secondary-text-color); }
+.message-bubble a { color: var(--accent-color); text-decoration: none; word-break: break-all; font-weight: 500; }
+.message-bubble a:hover { text-decoration: underline; }
+
+/* 4.4.1 Estilos para a lista de fontes (links) */
+.message-bubble ul {
+    list-style-type: none; /* REMOVE as "bolinhas" da frente dos links */
+    padding-left: 0;       /* REMOVE o espaçamento à esquerda da lista */
+    margin-top: 8px;       /* Adiciona um espaço acima da lista de fontes */
+    font-size: 0.9rem;
+}
+
+.message-bubble ul li {
+    margin-bottom: 4px; /* Adiciona um pequeno espaço vertical entre cada link */
+}
+
+/* 4.5. Botão de Copiar */
+.copy-btn {  /* O botão para copiar o conteúdo da mensagem, posicionado abaixo do balão. */
+    background: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.copy-btn:hover {
+    background: var(--input-background);
+}
+
+.copy-icon {  /* O ícone SVG dentro do botão de copiar. */
+    width: 18px;
+    height: 18px;
+    color: var(--secondary-text-color);
+}
+
+
+/* --- 5. Área de Entrada de Texto (Rodape) --- */
+
+.input-area {  /* A area na parte inferior da tela que contém o formulario. */
+    position: absolute; /* Posicionada em relação ao .chat-wrapper */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 24px 24px 24px;
+    /* Efeito de degrade para suavizar a transicao com o conteudo do chat */
+    background: linear-gradient(to top, var(--chat-background) 70%, transparent);
+}
+
+.input-wrapper {  /* Um container flex para centralizar o formulario dentro da area de input. */
+    display: flex;
+    justify-content: center;
+}
+
+#chat-form {  /* O formulario que agrupa o campo de texto e o botao de enviar. */
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    background-color: var(--input-background);
+    border-radius: 12px;
+    padding: 4px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#user-input {  /* O campo de texto onde o usuario digita a pergunta. */
+    flex-grow: 1; /* Faz o input ocupar todo o espaço disponivel */
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1rem;
+    padding: 12px;
+}
+
+#user-input::placeholder { color: var(--secondary-text-color); }
+#user-input:focus { outline: none; }
+
+#send-btn {  /* O botao de enviar a mensagem. */
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-text-color);
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#user-input:not(:placeholder-shown) + #send-btn {   /* Muda a cor do botao de enviar quando o usuario começa a digitar. */
+    background-color: var(--accent-color); 
+    color: white; 
+}
+
+#send-btn:hover { 
+    background-color: #14c29a; 
+}
+
+.icon {  /* O icone SVG dentro do botao de enviar. */
+    width: 24px; 
+    height: 24px; 
+}
+
+.footer-text {  /* O pequeno texto de aviso abaixo do formulario. */
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--secondary-text-color);
+    margin-top: 12px;
+}
+
+
+/* Estilo para a mensagem de carregamento (loading) */
+.loading-message {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaço entre os pontinhos */
+}
+
+/* Estilo individual de cada pontinho */
+.loading-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
+    
+    /* Define a animação */
+    animation-name: dot-bounce; /* Nome da animação (definida abaixo) */
+    animation-duration: 1.4s;   /* Duração total do ciclo */
+    animation-iteration-count: infinite; /* A animação se repete para sempre */
+    animation-timing-function: ease-in-out; /* Curva de aceleração suave */
+}
+
+/* Adiciona um pequeno atraso para cada pontinho, criando o efeito de onda */
+.loading-dot:nth-child(1) {
+    animation-delay: -0.32s;
+}
+.loading-dot:nth-child(2) {
+    animation-delay: -0.16s;
+}
+.loading-dot:nth-child(3) {
+    animation-delay: 0s;
+}
+
+/* Define os passos da animação (keyframes) */
+@keyframes dot-bounce {
+    0%, 80%, 100% {
+        transform: scale(0); /* Pontinho invisível */
+    }
+    40% {
+        transform: scale(1.0); /* Pontinho no tamanho normal */
+    }
+}

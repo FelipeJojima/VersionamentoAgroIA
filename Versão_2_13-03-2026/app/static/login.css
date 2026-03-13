@@ -1,0 +1,189 @@
+/* 
+==========================================================================
+            Arquivo de Estilos para Epagri.IA - Pagina de Login
+========================================================================== */
+
+/* --- 1. Configuracoes Globais e Variaveis --- */
+
+:root {  /* Paleta de Cores (consistente com a pagina de chat) */
+    --background-color: #1e1e24;
+    --chat-background: #2a2a32;      /* Usado como cor do card de login */
+    --input-background: #3c3c44;
+    --text-color: #e8e8e8;
+    --secondary-text-color: #a0a0a8;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --accent-color: #10a37f;
+}
+
+* {  /* Reset universal para garantir consistencia entre navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {  /* Estilos base para a pagina inteira */
+    height: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* --- 2. Layout Principal da Pagina --- */
+
+.login-wrapper {  /* O container principal que centraliza o card de login na tela. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.footer-text {  /* O pequeno texto de aviso no rodape da pagina. */
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--secondary-text-color);
+}
+
+
+/* --- 3. Elementos do Cabeçalho (Logos) --- */
+
+.logo-area-left {  /* Container posicionado no canto superior esquerdo para os logos. */
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+    display: flex;
+    gap: 12px;
+    z-index: 1000;
+    align-items: center;
+}
+
+.logo-container {  /* Cria o círculo branco que serve de "palco" para cada imagem de logo. */
+    width: 55px;
+    height: 55px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.corner-img {  /* A imagem do logo em si, dentro do circulo. */
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+}
+
+
+/* --- 4. Card de Login --- */
+
+/* 4.1. Estrutura e conteudo do Card */
+.login-card {  /* O card central que contem todos os elementos de login. */
+    background-color: var(--chat-background);
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-card h1 {  /* Titulo principal do card ("Epagri.IA"). */
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 8px;
+}
+
+.login-card .subtitle {  /* Subtitulo do card ("Bem-vindo de volta..."). */
+    color: var(--secondary-text-color);
+    margin-bottom: 32px;
+}
+
+/* 4.2. Mensagem de Erro */
+.error-message {  /* Estilo para a mensagem que aparece quando o login falha. */
+    background-color: #5e2a2a;
+    color: #f7c5c5;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #a85151;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* --- 5. Formulario de Login --- */
+
+/* 5.1. Estrutura do Formulario */
+form {  /* Define o layout geral dos elementos do formulario. */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os grupos de input e o botao */
+    text-align: left;
+}
+
+/* 5.2. Campos de Entrada (Input) */
+.input-group label {  /* O label (titulo) de cada campo de input. */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+.input-group input {  /* O campo de input em si. */
+    width: 100%;
+    padding: 12px;
+    background-color: var(--input-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {  /* Efeito visual quando o usuario clica no campo de input. */
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(16, 163, 127, 0.3); /* Efeito de "glow" */
+}
+
+/* 5.3. Opcoes do Formulario */
+.form-options {  /* Container para a opcao "Lembrar-me". */
+    display: flex;
+    justify-content: flex-start; /* Alinha o item a esquerda */
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.checkbox-container {  /* Estilo para o container do checkbox, tornando toda a area clicavel. */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+}
+
+/* 5.4. Botao Principal de Login */
+.login-btn {  /* O botao "Entrar". */
+    padding: 14px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #14c29a;
+}

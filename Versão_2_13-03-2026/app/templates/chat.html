@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Configura a viewport para que a página se adapte a diferentes tamanhos de tela (design responsivo) -->
+    <title>Epagri.IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>  <!-- Importa lib de MD para html -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-area-left">  <!-- Container para os logos, posicionado no canto superior esquerdo -->
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/udesc.png') }}" alt="Udesc" class="corner-img">
+        </div>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/epagritec.png') }}" alt="Epagritec" class="corner-img">
+        </div>
+    </div>
+    <div class="logout-area-right">  <!-- Container para o botão de sair, posicionado no canto superior direito. -->
+        <a href="{{ url_for('logout') }}" class="logout-btn" title="Sair">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" /></svg>
+            <span>Sair</span>
+        </a>
+    </div>
+
+    <div class="chat-wrapper">  <!-- Wrapper principal que engloba toda a interface do chat  -->
+        <div class="chat-container" id="chat-container">
+            <div class="initial-view" id="initial-view"><h1>Como posso ajudar?</h1></div>
+        </div>
+        <div class="input-area">  <!-- A área fixa na parte inferior da tela que contém o campo de entrada de texto -->
+            <div class="input-wrapper">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Pergunte ao Epagri.IA..." autocomplete="off">
+                    <button type="submit" id="send-btn" aria-label="Enviar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon"><path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" /></svg></button>
+                </form>
+            </div>
+             <p class="footer-text">Epagri.IA pode cometer erros. Considere verificar informações importantes.</p>  <!-- O texto de rodapé-->
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {  // Adiciona um "ouvinte de eventos" que espera todo o HTML da página ser carregado antes de executar o código
+            const form = document.getElementById("chat-form");
+            const input = document.getElementById("user-input");
+            const chatContainer = document.getElementById("chat-container");
+            const initialView = document.getElementById("initial-view");
+
+            // SVG dos ícones de "copiar" e "verificado"
+            const copySVG = `<svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H9.75" /></svg>`;
+            const checkSVG = `<svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>`;
+
+            // --- Funcao Auxiliar ---
+            function addMessageToUI(html) {  
+                if (initialView.style.display !== 'none') {  // Esconde a mensagem inicial de "Como posso ajudar?"
+                    initialView.style.display = 'none';
+                }
+                chatContainer.insertAdjacentHTML('beforeend', html);  // Insere o novo HTML no final do container de chat
+                chatContainer.scrollTop = chatContainer.scrollHeight;  // Rola o container para a parte inferior para que a nova mensagem seja visível
+            }
+
+            // --- Logica Principal do Forms ---
+            form.addEventListener("submit", async function (e) {
+                e.preventDefault();  // Impede que recarregue a pagina
+                
+                const question = input.value.trim();  // Pega o valor do input e remove espaços em branco
+                if (!question) return;  
+                
+                // 1. Exibe a mensagem do usuário na tela
+                const userHtml = `
+                    <div class="message-container user-message">
+                        <div class="message-bubble">
+                            <p class="message-text">${question}</p>
+                        </div>
+                        <button class="copy-btn" title="Copiar">${copySVG}</button>
+                    </div>`;
+                addMessageToUI(userHtml);
+                input.value = "";
+                
+                // 2. Exibe uma mensagem de "Pensando..." para o usuário
+                const thinkingHtml = `
+                    <div class="message-container bot-message" id="thinking-placeholder">
+                        <div class="message-bubble">
+                            <div class="loading-message">
+                                <div class="loading-dot"></div>
+                                <div class="loading-dot"></div>
+                                <div class="loading-dot"></div>
+                            </div>
+                        </div>
+                    </div>`;
+                addMessageToUI(thinkingHtml);
+                
+                // 3. Envia a pergunta para o backend
+                try {
+                    const response = await fetch("/search", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ question: question })
+                    });
+
+                    const data = await response.json();  // Analisa a resposta JSON
+                    
+                    document.getElementById('thinking-placeholder')?.remove();  // Remove a mensagem de Pensando
+                    
+                    if (data.error) {  // Se a resposta do servidor contiver um erro, exibe a mensagem de erro
+                        const errorHtml = `
+                            <div class="message-container bot-message">
+                                <div class="message-bubble">
+                                    <p class="message-text">${data.error}</p>
+                                </div>
+                            </div>`;
+                        addMessageToUI(errorHtml);
+                        return;
+                    }
+
+                    // 4. Processa e exibe a resposta do bot
+                    data.results.forEach(result => {
+                        const markdownDescription = result.descricao || "";
+
+                        const formattedDescription = marked.parse(markdownDescription);  // Usa a lib marked para converter de MD para HTML
+                        
+                        const sources = result.sources || [];  // Processa a lista de fontes para criar o HTML
+                        let sourcesHtml = '';
+                        let titleHtml = '';
+
+                        if (result.titulo) { 
+                            titleHtml = `<h3>${result.titulo}</h3>`;
+                        }
+                        
+                        if (sources.length > 0) {
+                            sourcesHtml += `<h4>Fontes utilizadas:</h4><ul>`;
+                            sources.forEach(source => {
+                                const url = source.url || '#';
+                                const title = source.title || 'Link inválido';
+                                sourcesHtml += `
+                                    <li>
+                                        <a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>
+                                    </li>`;
+                            });
+                            sourcesHtml += `</ul>`;
+                        }
+
+                        // Monta o HTML final da mensagem do bot.
+                        const botHtml = `
+                            <div class="message-container bot-message">
+                                <div class="message-bubble">
+                                    ${titleHtml}
+                                    <div class="message-text">${formattedDescription}</div>
+                                    ${sourcesHtml}
+                                </div>
+                                <button class="copy-btn" title="Copiar">${copySVG}</button>
+                            </div>`;
+                        addMessageToUI(botHtml);
+                    });
+
+                } catch (error) { // Se ocorrer um erro na comunicacao com o servidor, remove o Pensando e exibe uma mensagem de erro
+                    document.getElementById('thinking-placeholder')?.remove();
+                    const errorHtml = `
+                        <div class="message-container bot-message">
+                            <div class="message-bubble">
+                                <p class="message-text">Desculpe, ocorreu um erro ao buscar a resposta.</p>
+                            </div>
+                        </div>`;
+                    addMessageToUI(errorHtml);
+                    console.error("Erro na requisição:", error);
+                }
+            });
+
+            // --- Logica do botao de copiar ---
+            chatContainer.addEventListener('click', function(e) {  // listener para capturar cliques nos botoes de copiar
+                const copyBtn = e.target.closest('.copy-btn');  // Encontra o botao de copiar mais proximo 
+                if (!copyBtn) return;
+                
+                // Encontra o conteudo de texto associado ao botao clicado.
+                const messageContainer = copyBtn.closest('.message-container');
+                const messageBubble = messageContainer.querySelector('.message-bubble');
+                if (!messageBubble) return;
+
+                let textToCopy = '';
+                const title = messageBubble.querySelector('h3');
+                const text = messageBubble.querySelector('.message-text');
+                if (title) textToCopy += title.innerText + '\n\n';
+                if (text) textToCopy += text.innerText;
+                textToCopy = textToCopy.trim();
+
+                // Usa a API do Clipboard para copiar o texto para a area de transferencia
+                if(textToCopy) {
+                    navigator.clipboard.writeText(textToCopy).then(() => {
+                        copyBtn.innerHTML = checkSVG;
+                        setTimeout(() => { copyBtn.innerHTML = copySVG; }, 2000);  // Muda o ícone para verificado por 2 segundos
+                    }).catch(err => { console.error('Erro ao copiar:', err); });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
