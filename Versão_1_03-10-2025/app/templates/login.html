@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Configura a viewport para que a página se adapte a diferentes tamanhos de tela (design responsivo). -->
+    <title>Login - Epagri.IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="logo-area-left">  <!-- Container para os logos, posicionado no canto superior esquerdo. -->
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/udesc.png') }}" alt="Udesc" class="corner-img">
+        </div>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/epagritec.png') }}" alt="Epagritec" class="corner-img">
+        </div>
+    </div>
+
+    <div class="login-wrapper">   <!-- Wrapper principal que centraliza o conteúdo de login vertical e horizontalmente na tela. -->
+        <div class="login-card">  <!-- O "card" ou "caixa" que contém o formulário de login. -->
+            <h1>Epagri.IA</h1>
+            <p class="subtitle">Bem-vindo de volta! Faça login para continuar.</p>
+            <!--
+                Bloco condicional do Jinja2.
+                O conteúdo dentro deste bloco só será renderizado se a variável 'error'
+                (enviada pelo Flask no main.py) existir e não for nula.
+                {{ error }} imprime o valor da variável 'error' na página.
+            -->
+            {% if error %}
+                <p class="error-message">{{ error }}</p>
+            {% endif %}
+
+            <form method="POST" action="/login">  <!-- Form de login, envia com método POST para a rota /login da app-->
+                <div class="input-group">
+                    <label for="login">Login</label>
+                    <input type="text" id="login" name="login" required autocomplete="username">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required autocomplete="current-password">
+                </div>
+                
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="remember">
+                        Lembrar-me
+                    </label>
+                </div>
+                
+                <button type="submit" class="login-btn">Entrar</button>  <!-- O botão para enviar o formulario. type="submit" define seu comportamento. -->
+            </form>
+        </div>
+        <p class="footer-text">Epagri.IA - Inovação e tecnologia para o campo.</p>  <!-- Texto de rodapé. -->
+    </div>
+</body>
+</html>

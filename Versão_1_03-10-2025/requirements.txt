@@ -1,0 +1,30 @@
+# --- Framework Web ---
+flask
+gunicorn
+
+# --- Core de Machine Learning e IA ---
+torch
+transformers
+bitsandbytes
+accelerate
+safetensors
+
+# --- Processamento de Linguagem Natural (LangChain & LangGraph) ---
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langgraph
+langgraph-checkpoint-redis
+
+# --- Vetorização e Busca por Similaridade ---
+sentence-transformers
+faiss-cpu
+
+# --- Outras dependências ---
+pydantic
+huggingface_hub
+pyopenssl
+redis
+openai-whisper # Whispers requer ffmpeg instalado: sudo apt install ffmpeg
+
