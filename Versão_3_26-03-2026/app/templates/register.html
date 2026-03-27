@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Configura a viewport para que a página se adapte a diferentes tamanhos de tela (design responsivo). -->
+    <title>Cadastro - Epagri.IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="logo-area-left">  <!-- Container para os logos, posicionado no canto superior esquerdo. -->
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/udesc.png') }}" alt="Udesc" class="corner-img">
+        </div>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/epagritec.png') }}" alt="Epagritec" class="corner-img">
+        </div>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/fapesc.png') }}" alt="Fapesc" class="corner-img">
+        </div>
+    </div>
+    <div class="logout-area-right"> 
+        <a href="{{ url_for('logout') }}" class="logout-btn" title="Sair">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" /></svg>
+            <span>Sair</span>
+        </a>
+    </div>
+    <div class="login-wrapper">   <!-- Wrapper principal que centraliza o conteúdo de login vertical e horizontalmente na tela. -->
+        <div class="login-card">  <!-- O "card" ou "caixa" que contém o formulário de login. -->
+            <h1>Epagri.IA</h1>
+            <p class="subtitle">Bem-vindo! Cadastre-se agora!.</p>
+            <!--
+                Bloco condicional do Jinja2.
+                O conteúdo dentro deste bloco só será renderizado se a variável 'error'
+                (enviada pelo Flask no main.py) existir e não for nula.
+                {{ error }} imprime o valor da variável 'error' na página.
+            -->
+            {% if error %}
+                <p class="error-message">{{ error }}</p>
+            {% endif %}
+
+            <form method="POST" action="/registerAdd">  <!-- Form de cadastro, envia com método POST para a rota /cadastro da app-->
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" pattern="(\([0-9]{2}\))\s([9]{0,1})([0-9]{4})-([0-9]{4})" title="Use o formato (XX) XXXXX-XXXX">
+                </div>
+                <div class="input-group">
+                    <label for="instituicao">Instituição</label>
+                    <input type="text" id="instituicao" name="instituicao" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_pass">Confirmar senha</label>
+                    <input type="password" name="confirm_pass" id="confirm_pass" required>
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="superusuario" id="superusuario">
+                        É administrador?
+                    </label>
+                </div>
+                <button type="submit" class="login-btn">Registrar</button>  <!-- O botão para enviar o formulario. type="submit" define seu comportamento. -->
+            </form>
+        </div>
+        <p class="footer-text">Epagri.IA - Inovação e tecnologia para o campo.</p>  <!-- Texto de rodapé. -->
+    </div>
+</body>
+</html>

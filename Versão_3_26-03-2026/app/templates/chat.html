@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Configura a viewport para que a página se adapte a diferentes tamanhos de tela (design responsivo) -->
+    <title>Agro.IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>  <!-- Importa lib de MD para html -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app-layout" class="app-layout">
+        <!-- BOTÃO DE MENU EXTERNO (Visível quando a sidebar está FECHADA) -->
+        <div class="menu-button-container">
+            <!-- Use uma classe em vez de ID -->
+            <button class="menu-btn" title="Abrir menu"> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div id="sidebar" class="sidebar collapsed">
+            <div class="sidebar-header">
+                <!-- BOTÃO "NOVA CONVERSA" -->
+                <button id="new-chat-btn" class="sidebar-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+                    <span>Nova Conversa</span>
+                </button>
+                <button class="menu-btn" title="Recolher menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <!-- HISTÓRICO DE CHAT -->
+            <div class="chat-history">
+                <h4>Histórico</h4>
+                <ul id="chat-history-list">
+                    <!-- A lista de conversas será inserida aqui pelo JavaScript -->
+                </ul>
+            </div>
+            <!-- LOGOS UDESC EPAGRI -->
+            <div class="logo-area-left">
+                <img src="{{ url_for('static', filename='images/udesc.png') }}" alt="Udesc" class="sidebar-logo-img">
+                <img src="{{ url_for('static', filename='images/epagritec.png') }}" alt="Epagritec" class="sidebar-logo-img">
+                <img src="{{ url_for('static', filename='images/fapesc.png') }}" alt="Fapesc" class="sidebar-logo-img">
+            </div>
+        </div>
+
+        <!-- ÁREA DO CHAT -->
+        <div class="chat-wrapper">  <!-- Wrapper principal que engloba toda a interface do chat  -->
+            <!-- BOTÃO DE SAIR -->
+            <div class="logout-area-right"> 
+                <a href="{{ url_for('logout') }}" class="logout-btn" title="Sair">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" /></svg>
+                    <span>Sair</span>
+                </a>
+            </div>
+            <div class="chat-container" id="chat-container">
+                <div class="initial-view" id="initial-view"><h1>Como posso ajudar?</h1></div>
+            </div>
+            <div class="input-area">  <!-- A área fixa na parte inferior da tela que contém o campo de entrada de texto -->
+                <div class="input-wrapper">
+                    <form id="chat-form">
+                        <input type="text" id="user-input" placeholder="Pergunte ao Epagri.IA..." autocomplete="off">
+                        <button type="button" id="microphone-btn" aria-label="Microfone">
+                            <!-- SVG será inserido via JS -->
+                        </button>
+                        <button type="submit" id="send-btn" aria-label="Enviar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon"><path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <p class="footer-text">Agro.IA pode cometer erros. Considere verificar informações importantes.</p>  <!-- O texto de rodapé-->
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {  // Adiciona um "ouvinte de eventos" que espera todo o HTML da página ser carregado antes de executar o código
+            // --- 1. SELETORES DE ELEMENTOS ---
+
+            // Elementos do Core do Chat
+            const form = document.getElementById("chat-form");
+            const input = document.getElementById("user-input");
+            const chatContainer = document.getElementById("chat-container");
+            const initialView = document.getElementById("initial-view");
+            const sendBtn = document.getElementById("send-btn");
+            const microphoneBtn = document.getElementById("microphone-btn");
+            
+            // Elementos da Sidebar e do Layout
+            const menuButtons = document.querySelectorAll(".menu-btn");
+            const sidebar = document.getElementById("sidebar");
+            const newChatBtn = document.getElementById("new-chat-btn");
+            const chatHistoryList = document.getElementById("chat-history-list");
+
+            // --- 2. CONSTANTES E VARIÁVEIS DE ESTADO ---
+
+            // SVG dos ícones de "copiar", "verificado" e "microfone"
+            const copySVG = `<svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H9.75" /></svg>`;
+            const checkSVG = `<svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>`;
+            const micSVG = `<svg fill="currentColor" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g><g><path d="m439.5,236c0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,70-64,126.9-142.7,126.9-78.7,0-142.7-56.9-142.7-126.9 0-11.3-9.1-20.4-20.4-20.4s-20.4,9.1-20.4,20.4c0,86.2 71.5,157.4 163.1,166.7v57.5h-23.6c-11.3,0-20.4,9.1-20.4,20.4 0,11.3 9.1,20.4 20.4,20.4h88c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-23.6v-57.5c91.6-9.3 163.1-80.5 163.1-166.7z"/><path d="m256,323.5c51,0 92.3-41.3 92.3-92.3v-127.9c0-51-41.3-92.3-92.3-92.3s-92.3,41.3-92.3,92.3v127.9c0,51 41.3,92.3 92.3,92.3zm-52.3-220.2c0-28.8 23.5-52.3 52.3-52.3s52.3,23.5 52.3,52.3v127.9c0,28.8-23.5,52.3-52.3,52.3s-52.3-23.5-52.3-52.3v-127.9z"/></g></g></svg>`;
+            microphoneBtn.innerHTML = micSVG;
+
+            let mediaRecorder;
+            let audioChunks = [];
+            let isRecording = false;
+
+            // --- 3. FUNÇÕES DE CONTROLE DA UI ---
+
+            function lockUI(message = "Processando...") {
+                input.disabled = true;
+                sendBtn.disabled = true;
+                microphoneBtn.disabled = true;
+                input.placeholder = message;
+            }
+
+            function unlockUI(resetPlaceholder = true) {
+                input.disabled = false;
+                sendBtn.disabled = false;
+                microphoneBtn.disabled = false;
+                if (resetPlaceholder) input.placeholder = "Pergunte ao Epagri.IA...";
+                input.focus();
+            }
+
+            function addMessageToUI(elementOrHtml) {
+                if (initialView.style.display !== 'none') initialView.style.display = 'none';
+                
+                if (typeof elementOrHtml === 'string') {
+                    // Para as mensagens do bot, que já vêm com HTML do 'marked'
+                    chatContainer.insertAdjacentHTML('beforeend', elementOrHtml);
+                } else {
+                    // Para a mensagem do usuário, que agora é um elemento seguro
+                    chatContainer.appendChild(elementOrHtml);
+                }
+                
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+
+            function toggleSendMicButton() {
+                if (input.value.trim().length > 0) {
+                    form.classList.add('has-text');
+                } else {
+                    form.classList.remove('has-text');
+                }
+            }
+
+            // --- 4. FUNÇÕES DA SIDEBAR E HISTÓRICO ---
+
+            const toggleSidebar = () => {
+                sidebar.classList.toggle('collapsed');
+            };
+
+            const loadChatList = async () => {
+                try {
+                    const response = await fetch('/get_chats');
+                    if (!response.ok) return;
+                    const chats = await response.json();
+                    
+                    chatHistoryList.innerHTML = ''; // Limpa a lista antiga
+                    chats.forEach(chat => {
+                        const li = document.createElement('li');
+                        li.dataset.threadId = chat.id; // Adiciona o ID ao <li> para carregar a conversa
+
+                        // Cria o HTML interno do item da lista
+                        li.innerHTML = `
+                            <span class="chat-title-span">${chat.title}</span>
+                            <button class="delete-chat-btn" title="Apagar conversa">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.134-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.067-2.09 1.02-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                                </svg>
+                            </button>
+                        `;
+                        chatHistoryList.appendChild(li);
+                    });
+                } catch (error) {
+                    console.error("Erro ao carregar histórico:", error);
+                }
+            };
+
+            const deleteSpecificChat = async (threadId, buttonElement) => {
+                // Pede confirmação ao usuário antes de apagar
+                if (!confirm("Tem certeza que deseja apagar esta conversa permanentemente?")) {
+                    return;
+                }
+
+                try {
+                    const response = await fetch('/delete_chat', {
+                        method: 'POST',
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ thread_id: threadId })
+                    });
+                    
+                    const data = await response.json();
+
+                    if (response.ok && data.success) {
+                        // Se a exclusão foi bem-sucedida, remove o item da lista na tela
+                        buttonElement.closest('li').remove();
+                    } else {
+                        alert(data.error || "Não foi possível apagar a conversa.");
+                    }
+                } catch (error) {
+                    console.error("Erro ao apagar conversa:", error);
+                    alert("Ocorreu um erro de rede ao tentar apagar a conversa.");
+                }
+            };
+
+            const startNewChat = async () => {
+                lockUI("Iniciando nova conversa...");
+                try {
+                    const response = await fetch('/new_chat', { method: 'POST' });
+                    
+                    if (response.ok) {
+                        chatContainer.innerHTML = ''; 
+                        
+                        let initialView = document.getElementById("initial-view");
+                        if (!initialView) {
+                            const initialViewHtml = '<div class="initial-view" id="initial-view"><h1>Como posso ajudar?</h1></div>';
+                            chatContainer.innerHTML = initialViewHtml;
+                        } else {
+                            // Se ela ainda existir, apenas a torna visível novamente
+                            initialView.style.display = 'flex'; 
+                        }
+                        
+                        if (!sidebar.classList.contains('collapsed')) {
+                            toggleSidebar();
+                        }
+                        
+                        loadChatList();
+                    }
+                } catch (error) {
+                    console.error("Erro ao criar nova conversa:", error);
+                } finally {
+                    unlockUI();
+                }
+            };
+
+            const loadSpecificChat = async (threadId) => {
+                lockUI("Carregando histórico...");
+                chatContainer.innerHTML = '';
+                initialView.style.display = 'none';
+
+                try {
+                    const historyResponse = await fetch(`/get_chat_history/${threadId}`);
+                    if (!historyResponse.ok) {
+                        throw new Error('Falha ao buscar o histórico do servidor.');
+                    }
+                    const messages = await historyResponse.json();
+                    console.log("Histórico recebido do backend:", messages);
+
+                    if (!messages || messages.length === 0) {
+                        console.log("Histórico está vazio. Nada para renderizar.");
+                        chatContainer.innerHTML = `<div class="initial-view"><h1>Esta conversa está vazia.</h1></div>`;
+                    } else {
+                        let finalHtml = ''; 
+
+                        // 2. Constrói o HTML para cada mensagem
+                        messages.forEach(msg => {
+                            const isUser = msg.type === 'user';
+                            const messageClass = isUser ? 'user-message' : 'bot-message';
+                            
+                            let contentHtml = '';
+                            if (msg.content && typeof msg.content === 'string') {
+                                contentHtml = isUser ? msg.content.replace(/</g, "&lt;").replace(/>/g, "&gt;") 
+                                                    : marked.parse(msg.content);
+                            }
+
+                            const sourcesHtml = isUser ? '' : createSourcesHtml(msg.sources);
+
+                            finalHtml += `
+                                <div class="message-container ${messageClass}">
+                                    <div class="message-bubble">
+                                        <div class="message-text">${contentHtml}</div>
+                                        ${sourcesHtml} <!-- Injeta o HTML das fontes aqui -->
+                                    </div>
+                                    <button class="copy-btn" title="Copiar">${copySVG}</button>
+                                </div>`;
+                        });
+
+                        // 3. Injeta todo o HTML de uma vez no container
+                        chatContainer.innerHTML = finalHtml;
+                        chatContainer.scrollTop = chatContainer.scrollHeight;
+                    }
+
+                    // 4. Atualiza a sessão no backend para a conversa atual
+                    await fetch('/load_chat', {
+                        method: 'POST',
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ thread_id: threadId })
+                    });
+
+                    // 5. Fecha a sidebar
+                    if (!sidebar.classList.contains('collapsed')) {
+                        toggleSidebar();
+                    }
+
+                } catch (error) {
+                    console.error("ERRO CRÍTICO ao carregar a conversa:", error);
+                    chatContainer.innerHTML = `<div class="message-container bot-message"><div class="message-bubble"><p class="message-text">Desculpe, ocorreu um erro ao processar e exibir o histórico.</p></div></div>`;
+                } finally {
+                    unlockUI();
+                }
+            };
+
+            function createSourcesHtml(sources) {
+                // Se não houver fontes ou a lista estiver vazia, retorna uma string vazia.
+                if (!sources || sources.length === 0) {
+                    return '';
+                }
+                
+                // Constrói o HTML para a lista de fontes.
+                let html = `<h4>Fontes utilizadas:</h4><ul>`;
+                sources.forEach(source => {
+                    const url = source.url || '#';
+                    const title = source.title || 'Link inválido';
+                    html += `<li><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></li>`;
+                });
+                html += `</ul>`;
+                return html;
+            }
+
+            // --- 5. FUNÇÕES DE GRAVAÇÃO E TRANSCRIÇÃO DE ÁUDIO ---
+
+            const startRecording = async (event) => {
+                event.preventDefault();
+                if (isRecording || input.disabled) return;
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    isRecording = true;
+                    microphoneBtn.classList.add("recording");
+                    lockUI("Gravando... Solte para parar.");
+                    mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                    audioChunks = [];
+                    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+                    mediaRecorder.onstop = () => {
+                        stream.getTracks().forEach(track => track.stop());
+                        const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                        transcribeAudio(audioBlob);
+                    };
+                    mediaRecorder.start();
+                } catch (error) {
+                    console.error("Erro ao acessar microfone:", error);
+                    alert("Permissão para usar o microfone negada ou não disponível.");
+                    unlockUI();
+                }
+            };
+
+            const stopRecording = (event) => {
+                event.preventDefault();
+                if (isRecording && mediaRecorder && mediaRecorder.state === "recording") {
+                    mediaRecorder.stop();
+                    isRecording = false;
+                    microphoneBtn.classList.remove("recording");
+                }
+            };
+
+            const transcribeAudio = async (audioBlob) => {
+                lockUI("Transcrevendo áudio...");
+                const formData = new FormData();
+                formData.append('audio_data', audioBlob);
+                try {
+                    const response = await fetch('/transcribe', { method: 'POST', body: formData });
+                    const data = await response.json();
+                    if (response.ok && data.text) {
+                        input.value = data.text;
+                        unlockUI(false);
+                    } else {
+                        input.placeholder = data.error || "Erro na transcrição.";
+                        setTimeout(() => unlockUI(), 3000);
+                    }
+                } catch (error) {
+                    console.error("Erro ao enviar áudio:", error);
+                    input.placeholder = "Falha na conexão.";
+                    setTimeout(() => unlockUI(), 3000);
+                } finally {
+                    toggleSendMicButton(); // Garante que o botão certo seja exibido
+                }
+            };
+
+            // --- 6. EVENT LISTENERS (VINCULAÇÃO DE EVENTOS) ---
+            // Sidebar e Histórico
+            menuButtons.forEach(button => {
+                button.addEventListener('click', toggleSidebar);
+            });
+            newChatBtn.addEventListener('click', startNewChat);
+            chatHistoryList.addEventListener('click', (e) => {
+                // Procura por um botão de exclusão que foi clicado
+                const deleteButton = e.target.closest('.delete-chat-btn');
+                if (deleteButton) {
+                    const threadId = deleteButton.closest('li').dataset.threadId;
+                    if (threadId) {
+                        deleteSpecificChat(threadId, deleteButton);
+                    }
+                    return; // Para a execução para não carregar o chat
+                }
+
+                // Se não foi o botão de exclusão, procura pelo item da lista para carregar
+                const chatListItem = e.target.closest('li');
+                if (chatListItem) {
+                    const threadId = chatListItem.dataset.threadId;
+                    if (threadId) {
+                        loadSpecificChat(threadId);
+                    }
+                }
+            });
+
+            // Formulário Principal
+            form.addEventListener("submit", async function (e) {
+                e.preventDefault();
+                if (sendBtn.disabled) return;
+                const question = input.value.trim();
+                if (!question) return;
+                
+                const isFirstMessage = !chatContainer.querySelector('.bot-message');
+                
+                const messageContainer = document.createElement('div');
+                messageContainer.className = 'message-container user-message';
+
+                const messageBubble = document.createElement('div');
+                messageBubble.className = 'message-bubble';
+
+                const messageText = document.createElement('p');
+                messageText.className = 'message-text';
+                messageText.textContent = question; // Insere como texto, não como HTML
+
+                const copyButton = document.createElement('button');
+                copyButton.className = 'copy-btn';
+                copyButton.title = 'Copiar';
+                copyButton.innerHTML = copySVG; 
+
+                // 2. Monta a estrutura
+                messageBubble.appendChild(messageText);
+                messageContainer.appendChild(messageBubble);
+                messageContainer.appendChild(copyButton);
+
+                // 3. Adiciona a mensagem montada à UI
+                addMessageToUI(messageContainer);
+                input.value = "";
+                toggleSendMicButton();
+                
+                const thinkingHtml = `<div class="message-container bot-message" id="thinking-placeholder"><div class="message-bubble"><div class="loading-message"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div></div></div>`;
+                addMessageToUI(thinkingHtml);
+                lockUI("Aguardando resposta da IA...");
+
+                try {
+                    const response = await fetch("/search", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ question: question })
+                    });
+
+                    document.getElementById('thinking-placeholder')?.remove();
+                    const data = await response.json();
+                    
+                    if (!response.ok) {
+                        const errorHtml = `<div class="message-container bot-message"><div class="message-bubble"><p class="message-text">${data.error || 'Ocorreu um erro no servidor.'}</p></div></div>`;
+                        addMessageToUI(errorHtml);
+                        return;
+                    }
+
+                    if (isFirstMessage) {
+                        console.log("Primeira mensagem enviada, atualizando a lista de histórico...");
+                        loadChatList();
+                    }
+
+                    const result = data.results[0];
+                    const markdownDescription = result.descricao || "";
+                    const formattedDescription = marked.parse(markdownDescription);
+                    const sources = result.sources || [];
+                    let sourcesHtml = createSourcesHtml(result.sources);
+
+                    const botHtml = `<div class="message-container bot-message"><div class="message-bubble"><div class="message-text">${formattedDescription}</div>${sourcesHtml}</div><button class="copy-btn" title="Copiar">${copySVG}</button></div>`;
+                    addMessageToUI(botHtml);
+
+                } catch (error) {
+                    document.getElementById('thinking-placeholder')?.remove();
+                    const errorHtml = `<div class="message-container bot-message"><div class="message-bubble"><p class="message-text">Falha na comunicação com o servidor. Verifique sua conexão.</p></div></div>`;
+                    addMessageToUI(errorHtml);
+                    console.error("Erro de rede na requisição:", error);
+                } finally {
+                    unlockUI();
+                }
+            });
+
+            // Alternância de Botões Enviar/Microfone
+            input.addEventListener('input', toggleSendMicButton);
+
+            // Microfone (eventos de mouse e toque)
+            microphoneBtn.addEventListener("mousedown", startRecording);
+            microphoneBtn.addEventListener("mouseup", stopRecording);
+            microphoneBtn.addEventListener("mouseleave", stopRecording);
+            microphoneBtn.addEventListener("touchstart", startRecording, { passive: false });
+            microphoneBtn.addEventListener("touchend", stopRecording);
+            microphoneBtn.addEventListener("touchcancel", stopRecording);
+
+            // Botão de Copiar (usando delegação de eventos)
+            chatContainer.addEventListener('click', function(e) {
+                const copyBtn = e.target.closest('.copy-btn');
+                if (!copyBtn) return;
+                const messageContainer = copyBtn.closest('.message-container');
+                const messageBubble = messageContainer.querySelector('.message-bubble .message-text');
+                if (!messageBubble) return;
+                
+                navigator.clipboard.writeText(messageBubble.innerText).then(() => {
+                    copyBtn.innerHTML = checkSVG;
+                    setTimeout(() => { copyBtn.innerHTML = copySVG; }, 2000);
+                }).catch(err => { console.error('Erro ao copiar:', err); });
+            });
+
+            // --- 7. INICIALIZAÇÃO DA PÁGINA ---
+            
+            microphoneBtn.innerHTML = micSVG; // Define o ícone do microfone
+            loadChatList();                   // Carrega o histórico de conversas na sidebar
+            toggleSendMicButton();            // Garante que o botão correto (enviar/mic) seja exibido ao carregar
+        });
+    </script>
+</body>
+</html>

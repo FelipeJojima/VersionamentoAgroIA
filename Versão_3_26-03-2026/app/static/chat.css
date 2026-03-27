@@ -1,0 +1,420 @@
+/* 
+==========================================================================
+            Arquivo de Estilos para Epagri.IA - Pagina de Chat
+========================================================================== */
+
+/* --- 1. CONFIGURAÇÕES GLOBAIS E VARIÁVEIS --- */
+:root {
+    --background-color: #1e1e24;      
+    --chat-background: #2a2a32;      
+    --input-background: #3c3c44;     
+    --text-color: #e8e8e8;            
+    --secondary-text-color: #a0a0a8;  
+    --border-color: rgba(255, 255, 255, 0.1); 
+    --user-message-bg: #2c3e50;       
+    --bot-message-bg: #383840;       
+    --accent-color: #10a37f;
+    --error-color: #e74c3c;
+    /* Cores para a Sidebar (tema claro) */
+    --sidebar-bg: #f8f9fa;
+    --sidebar-border: #e0e0e0;
+    --sidebar-text: #333;
+    --sidebar-hover-bg: #e9ecef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow: hidden; /* Impede a rolagem do corpo da página */
+}
+
+
+/* --- 2. LAYOUT GERAL (APP, SIDEBAR E BOTÃO DE MENU) --- */
+
+/* O container principal que envolve a sidebar e o chat */
+.app-layout {
+    display: flex;
+    /* Usa a altura dinâmica da viewport, que se ajusta às barras do navegador */
+    height: 100dvh; 
+    position: relative;
+}
+
+/* Container do botão de menu EXTERNO */
+.menu-button-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+/* Estilo principal da barra lateral */
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--sidebar-border);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
+    color: var(--sidebar-text);
+}
+
+/* Lógica de visibilidade dos botões de menu */
+/* QUANDO A SIDEBAR ESTÁ RECOLHIDA... */
+.sidebar.collapsed {
+    width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    border-right-width: 0;
+}
+.sidebar.collapsed ~ .menu-button-container {
+    /* O botão externo fica visível */
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+/* QUANDO A SIDEBAR ESTÁ ABERTA... */
+.app-layout:not(:has(.sidebar.collapsed)) .menu-button-container {
+    /* O botão externo DESAPARECE */
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+
+/* --- 3. CONTEÚDO DA SIDEBAR --- */
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+/* Botão "Nova Conversa" */
+#new-chat-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--sidebar-text);
+}
+#new-chat-btn:hover {
+    background-color: var(--sidebar-hover-bg);
+}
+#new-chat-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilo base COMUM para AMBOS os botões de menu */
+.menu-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.menu-btn svg {
+    width: 24px;
+    height: 24px;
+    stroke: var(--secondary-text-color);
+}
+
+/* Estilo específico para o botão de menu INTERNO (dentro da sidebar) */
+.sidebar-header .menu-btn {
+    background: none;
+    border: none;
+}
+.sidebar-header .menu-btn:hover {
+    background-color: var(--sidebar-hover-bg);
+}
+.sidebar-header .menu-btn svg {
+    stroke: #555;
+}
+
+/* Seção do histórico de conversas */
+.chat-history {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.chat-history h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #666;
+    font-weight: 500;
+}
+#chat-history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#chat-history-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Coloca o título na esquerda e o botão na direita */
+    gap: 8px; /* Espaço entre o título e o botão */
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+#chat-history-list li:hover {
+    background-color: var(--sidebar-hover-bg);
+}
+
+/* Estilo para o span que contém o título, para lidar com textos longos */
+.chat-title-span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona "..." se o título for muito longo */
+    flex-grow: 1; /* Faz o título ocupar o espaço disponível */
+}
+
+/* Estilo do novo botão de exclusão */
+.delete-chat-btn {
+    background: none;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0; /* Impede que o botão encolha */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6; /* Deixa o botão um pouco sutil */
+    transition: opacity 0.2s, background-color 0.2s;
+}
+.delete-chat-btn:hover {
+    background-color: #dcdcdc;
+    opacity: 1;
+}
+.delete-chat-btn svg {
+    width: 16px;
+    height: 16px;
+    stroke: #555;
+}
+
+
+/* Área dos logos no rodapé da sidebar */
+.logo-area-left {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    flex-shrink: 0;
+}
+.sidebar-logo-img {
+    max-height: 40px;
+    width: auto;
+}
+
+
+/* --- 4. CONTEÚDO PRINCIPAL (CHAT) --- */
+
+.chat-wrapper {
+    flex-grow: 1;
+    height: 100vh;
+    background-color: var(--chat-background);
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Contexto para o botão de logout */
+}
+
+.chat-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    
+    /* ADICIONE ESTE PADDING-TOP */
+    /* 60px é um bom valor inicial para dar espaço para o botão de logout. Ajuste se necessário. */
+    padding: 60px 24px 24px 24px;
+}
+
+.logout-area-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+.logout-btn {
+    display: flex; align-items: center; gap: 8px; padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.1); color: var(--secondary-text-color);
+    border: 1px solid var(--border-color); border-radius: 8px;
+    font-weight: 500; text-decoration: none; cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+.logout-btn:hover { background-color: #5e2a2a; color: #f7c5c5; border-color: #a85151; }
+.logout-btn svg { width: 20px; height: 20px; }
+
+
+/* --- 5. MENSAGENS E CONTEÚDO DO CHAT --- */
+
+.initial-view {
+    height: 100%; display: flex; flex-direction: column;
+    justify-content: center; align-items: center; text-align: center;
+    max-width: 840px; margin: 0 auto;
+}
+.initial-view h1 { font-size: 2.5rem; font-weight: 600; }
+
+.message-container {
+    display: flex; flex-direction: column; max-width: 840px;
+    margin: 0 auto 24px auto; gap: 8px;
+}
+.user-message { align-items: flex-end; }
+.bot-message { align-items: flex-start; }
+
+.message-bubble {
+    padding: 12px 16px;
+    border-radius: 18px;
+    border: 1px solid var(--border-color);
+    max-width: 100%; 
+}
+.user-message .message-bubble { background-color: var(--user-message-bg); border-bottom-right-radius: 4px; }
+.bot-message .message-bubble { background-color: var(--bot-message-bg); border-bottom-left-radius: 4px; }
+
+.message-text {
+    white-space: pre-wrap;
+    overflow-wrap: break-word; /* Padrão moderno */
+    word-wrap: break-word;     /* Legado */
+    word-break: break-word; 
+}
+
+.message-bubble h3 { margin-bottom: 8px; }
+.message-bubble h4 { margin-top: 16px; margin-bottom: 4px; font-size: 0.9rem; color: var(--secondary-text-color); }
+.message-bubble a { color: var(--accent-color); text-decoration: none; font-weight: 500; }
+.message-bubble a:hover { text-decoration: underline; }
+.message-bubble ul { list-style-type: none; padding-left: 0; margin-top: 8px; font-size: 0.9rem; }
+.message-bubble ul li { margin-bottom: 4px; }
+
+.copy-btn {
+    background: none; border: none; padding: 4px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: background-color 0.2s;
+}
+.copy-btn:hover { background: var(--input-background); }
+.copy-icon { width: 18px; height: 18px; color: var(--secondary-text-color); }
+
+
+/* --- 6. ÁREA DE ENTRADA DE TEXTO (RODAPÉ) --- */
+
+.input-area {
+    /* O padding-bottom agora calcula o espaço necessário para a barra de home do iPhone */
+    padding: 16px 24px calc(24px + env(safe-area-inset-bottom)) 24px;
+    background: linear-gradient(to top, var(--chat-background) 70%, transparent);
+    flex-shrink: 0; /* Impede que a área de input seja esmagada */
+}
+
+.input-wrapper { display: flex; justify-content: center; }
+
+#chat-form {
+    width: 100%; max-width: 800px; display: flex;
+    align-items: flex-end; background-color: var(--input-background);
+    border-radius: 12px; padding: 4px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#user-input {
+    flex-grow: 1; background: transparent; border: none;
+    color: var(--text-color); font-size: 1rem; padding: 12px;
+    resize: none; max-height: 200px; overflow-y: auto;
+}
+#user-input:focus { outline: none; }
+#user-input::placeholder { color: var(--secondary-text-color); }
+
+.footer-text {
+    text-align: center; font-size: 0.75rem;
+    color: var(--secondary-text-color); margin-top: 12px;
+}
+
+/* --- 7. BOTÕES DE INPUT (ENVIAR/MICROFONE) --- */
+
+#send-btn, #microphone-btn {
+    flex-shrink: 0; width: 44px; height: 44px;
+    background-color: transparent; border: none; padding: 8px;
+    border-radius: 8px; cursor: pointer; display: flex;
+    align-items: center; justify-content: center;
+    transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+#send-btn svg, #microphone-btn svg {
+    width: 24px; height: 24px; fill: var(--secondary-text-color);
+    transition: fill 0.2s ease;
+}
+
+#send-btn { display: none; }
+#microphone-btn { display: flex; }
+
+#chat-form.has-text #send-btn { display: flex; }
+#chat-form.has-text #microphone-btn { display: none; }
+
+#chat-form.has-text #send-btn { background-color: var(--accent-color); }
+#chat-form.has-text #send-btn svg { fill: white; }
+
+#send-btn:not(:disabled):hover, #microphone-btn:not(:disabled):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#chat-form.has-text #send-btn:not(:disabled):hover {
+    background-color: #14c29a;
+}
+
+
+/* --- 8. ESTADOS DE CARREGAMENTO E GRAVAÇÃO --- */
+
+.loading-message { display: flex; align-items: center; gap: 5px; }
+.loading-dot {
+    width: 8px; height: 8px; background-color: var(--secondary-text-color);
+    border-radius: 50%; animation: dot-bounce 1.4s infinite ease-in-out both;
+}
+.loading-dot:nth-child(1) { animation-delay: -0.32s; }
+.loading-dot:nth-child(2) { animation-delay: -0.16s; }
+@keyframes dot-bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1.0); } }
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+#microphone-btn.recording {
+    transform: scale(1.1); animation: pulse 1.5s infinite;
+    border-radius: 50%;
+}
+#microphone-btn.recording svg { fill: var(--error-color); }
+
+#user-input:disabled { cursor: not-allowed; opacity: 0.7; }
+#send-btn:disabled, #microphone-btn:disabled {
+    cursor: not-allowed; opacity: 0.5;
+    background-color: transparent !important;
+}
+#send-btn:disabled svg, #microphone-btn:disabled svg {
+    fill: #6a6a6e !important;
+}
