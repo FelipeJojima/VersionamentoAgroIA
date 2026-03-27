@@ -1,0 +1,8 @@
+FROM llama3.2-vision:11b
+
+PARAMETER temperature 0.25
+PARAMETER repeat_penalty 1.35
+PARAMETER top_p 0.9
+PARAMETER top_k 70
+PARAMETER repeat_last_n 256
+PARAMETER num_ctx 4096
